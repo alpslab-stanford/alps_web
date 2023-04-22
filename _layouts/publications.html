@@ -1,0 +1,120 @@
+---
+layout: default
+---
+
+<html>
+
+  <body>
+    <!-- Get the bibliography information from teh yaml file -->
+    {%- assign allOutput = site.data.bibliography -%}
+
+    <!-- Get the current year -->
+    {%- assign currentYear =  'now' | date: "%Y"  -%}
+
+    <!-- *** PENDING SECTION *** -->
+
+    <!-- Include it only if there is something that is pending -->
+    <!-- Iterate through each bibtex entry -->
+    {%- for output in allOutput -%}
+      {%- assign outputYear = output.year | string -%}
+
+      <!-- If there is a pending article, include the header -->
+      {%- if  outputYear == "to appear"-%}
+          <h2> Pending </h2>
+
+          {%- break -%}
+      {%- elsif outputYear == "submitted" -%}
+        <h2> Pending </h2>
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+
+    <!-- ** TO APPEAR ARTICLES ** -->
+    <!-- Include heading if there is an "to appear" article -->
+    {%- for output in allOutput -%}
+      {%- assign outputYear = output.year | string -%}
+      <!-- If there is a "to appear" article, include the header -->
+      {%- if  outputYear == "to appear"-%}
+          <h3> To Appear </h3>
+          {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+    <!-- Add the "to appear" entries -->
+    <!-- Iterate through each bibtex entry -->
+    {%- for output in allOutput -%}
+      {%- assign outputYear = output.year | string -%}
+
+      <!-- Only include the bibtex entry which are "to appear" -->
+      {%- if outputYear == "to appear" -%}
+
+        <!-- _includes/entry.html prints out the bibtex entry -->
+        {% include entry.html %}
+
+      {%- endif -%}
+    {%- endfor -%}
+
+    <!-- ** SUBMITTED ARTICLES ** -->
+    <!-- Include heading if there is an "submitted" article -->
+    {%- for output in allOutput -%}
+      {%- assign outputYear = output.year | string -%}
+      <!-- If there is a "to appear" article, include the header -->
+      {%- if  outputYear == "submitted"-%}
+          <h3> Submitted </h3>
+          {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+    <!-- Add the "submitted" entries -->
+    <!-- Iterate through each bibtex entry -->
+    {%- for output in allOutput -%}
+      {%- assign outputYear = output.year | string -%}
+
+      <!-- Only include the bibtex entry which are "submitted" -->
+      {%- if outputYear == "submitted" -%}
+
+        <!-- _includes/entry.html prints out the bibtex entry -->
+        {% include entry.html %}
+
+      {%- endif -%}
+    {%- endfor -%}
+
+
+
+
+    <!-- *** PUBLICATIONS SECTION *** -->
+
+    <h2 style="padding-top:20px"> Publications </h2>
+
+    <!-- Loop through each year -->
+    {% for year in (2011..currentYear) reversed %}
+      <h2>{{year}}</h2>
+
+      <!-- Iterate through each bibtex entry -->
+      {%- for output in allOutput -%}
+        {%- assign outputYear = output.year | to_integer -%}
+
+        <!-- Only include the bibtex entry if it is from the year specified by the heading  -->
+        {%- if outputYear == year -%}
+
+          <!-- _includes/entry.html prints out the bibtex entry -->
+          {% include entry.html %}
+
+        {%- endif -%}
+        {%- endfor -%}
+    {%- endfor -%}
+
+  </body>
+</html>
+
+<!-- Script responsible for button functionality -->
+<script>
+function showOutput(input) {
+  outputName = String(input);
+  var x = document.getElementById(outputName);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>

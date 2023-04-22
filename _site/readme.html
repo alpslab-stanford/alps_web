@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>ALPS Lab</title>
+    <meta name="description" content="interActive Language Processing Lab at Stanford (ALPS Lab for short)
+">
+
+    <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+    <link rel="stylesheet" href="http://localhost:4000/css/tables.css">
+
+    <link rel="stylesheet" href="./css/tables.css">
+
+
+
+    <link rel="canonical" href="http://localhost:4000/readme.html">
+    <script src="assets/js/webppl.min.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <a href="http://localhost:4000/"><img class="header-logo" src="http://localhost:4000/images/alpslogo-dark-notext-smaller.png" alt="ALPS Lab"></img></a>
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+
+        
+          
+          <div class="page-link-wrapper">
+            <a class="page-link" href="http://localhost:4000/index.html">Home</a>
+          </div>
+          
+        
+          
+          <div class="page-link-wrapper">
+            <a class="page-link" href="http://localhost:4000/people.html">People</a>
+          </div>
+          
+        
+          
+          <div class="page-link-wrapper">
+            <a class="page-link" href="http://localhost:4000/publications.html">Publications</a>
+          </div>
+          
+        
+          
+        
+          
+          <div class="page-link-wrapper">
+            <a class="page-link" href="http://localhost:4000/join.html">Join</a>
+          </div>
+          
+        
+          
+          <div class="page-link-wrapper">
+            <a class="page-link" href="http://localhost:4000/resources.html">Resources</a>
+          </div>
+          
+        
+          
+          <div class="page-link-wrapper">
+            <a class="page-link" href="http://localhost:4000/blog.html">Blog</a>
+          </div>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <p>Here’s how to edit this website!</p>
+
+<h1 id="editing-in-jekyll-the-basics">Editing in Jekyll: The basics</h1>
+
+<p>Feel free to skip this section if you’ve already worked in Jekyll.</p>
+
+<p>If anyone finds a good video explaining the basics of Jekyll please drop a link here!</p>
+
+<p>This website is built in Jekyll. In order to edit it you should have at least some familiarity with basic HTML, CSS, and Liquid (https://shopify.github.io/liquid/basics/). HTML and CSS are used for web development. Liquid is a Jekyll specific syntax that helps create the site dynamically.</p>
+
+<p>If you haven’t worked with any of these programs before, read some basic descriptions of each language (some good intro to HTML/CSS links can be found in the lab wiki). Then, read this section. After that you should be able to follow the instructions on this readme and make the changes. But I also recommend following the instructions under “View changes locally/Troubleshooting” section and trying to play around with the code, making minor changes like changing an image, changing the color of an element, or anything else. This will give you a more intuitive sense of how the website works, which will help in case anything ever breaks.</p>
+
+<p>This website is built in Jekyll rather than basic HTMl. If you’ve ever tried building a website using basic Jekyll you’ll find that you have to copy and paste a lot of code—for example if you want the same menu bar at the top of the website, and you want the code for each website page to be written in separate html documents, you have to copy and paste the code for the menu in each of these separate documents. This can become quite inefficient and prone to error if you ever want to edit the contents of the menu items (because you would have to make the same edits in every html document)! Jekyll resolves this issue by dynamically building the website—meaning it takes code from different html files and combines it in any way you tell it to.</p>
+
+<p>The basic framework is as follows. The html files that dictate how each of the pages looks like are stored in the _layouts folder. The base html file that all other files are based off of is default.html. All the other html files inherit the code from default.html, as specified by the header:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: default
+---
+</code></pre></div></div>
+<p>The _layouts folder also contains html files for the other pages which specify the layout specific to that page. Home.html for the home page, publications.html for the publications page, etc. Open them to get a sense of their content. You’ll notice that none of them actually have any content—just html and liquid code. This is where the structure of the Jekyll comes into play—all content is found in either markdown files (.md) in the root of the website or in the _data folder.</p>
+
+<p>Non-repeating content found in markdown files is what is fed to the html files in order to populate the page with what will actually be printed. So for example, open the 00-index.md. You’ll find content here specifying the image that should go on top (although technically that is an example of bad code as all html should be found in the home.html file and not in markdown…) and the text that will show up on the front page of the website. The header of this file looks like this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: home
+title: Home
+permalink: index.html
+---
+</code></pre></div></div>
+<p>Layout specifies which html file should be used as the layout format for this markdown content (i.e. home.html). Title specifies the title of the page (as it appears in the menu). Permalink creates an index.html file that will ultimately be printed on the webpage.</p>
+
+<p>Repeating content is located in the _data folder in .yml (yaml) files. This is content that you want to repeat over and over again (for example entries on the publications page or people in the people page), but be populated using the same formatting. In order to do this, we give the information structure inside the yaml files, and then have the html files dynamically populate the same information for each entry (e.g. publication entry or person) using loops. That way each entry has the exact same layout, but the information differs. The markdown files associated with this type of data are empty, because there is no non-repeating information on these pages. If you wanted to add, for example, some kind of paragraph at the beginning of the people page, you would add this paragraph in the people.md file.</p>
+
+<p>The repeating information is organized in yaml in a list format. A “-“ symbol indicates a new entry. Every entry has information specified with keys and values in a new line  as [key]: [value] (e.g. name: Judith). Indentations in yaml files matter. If an entry is double indented (two tabs), it is nestled under the entry with only one tab (and so forth). The liquid for loops in the .html files iterate through all entries that are on the same level (have the same indentation). In order to enter a deeper level (e.g. go from iterating through entries with one tab to iterating through entries with two tabs) you can nestle a for loop in another for loop. Examples of this can be found in people.html and publications.html (the for loops are commented with what they are doing).</p>
+
+<p>In summary:</p>
+<ul>
+  <li>.html = specifiying layout of of the page</li>
+  <li>.md = specifying content that does not repeat</li>
+  <li>.yml = specifying content that does repeat</li>
+</ul>
+
+<p>This website code has been worked on by several people. Not all of it is well commented and you will find lots of legacy code that does nothing/parts of the code that are messy. While you are working on the website, please keep this in mind and try to comment/clean messy code/delete delete obsolete code as much as you can (always documenting your changes on git!).</p>
+
+<h1 id="people-section">People Section</h1>
+<h2 id="add-a-person-to-the-website">Add a person to the website</h2>
+<p>You need:</p>
+<ul>
+  <li>The person’s name</li>
+  <li>The person’s personal website (optional)</li>
+  <li>The person’s photo</li>
+  <li>The person’s bio</li>
+</ul>
+
+<ol>
+  <li>Add the person’s photo into the images/members folder and name it ‘NAME.jpg’</li>
+  <li>Add the person’s information to _data/alpslab.yml following the formatting shown there. Be sure to follow the formatting precisely, as missing spaces/incorrect line breaks may break the website. Add the person in the correct section (Graduate students, Masters Students, etc.)</li>
+  <li>Follow instructions under “publish changes”</li>
+</ol>
+
+<h2 id="change-lab-member-to-lab-alumni">Change Lab member to Lab Alumni</h2>
+<ol>
+  <li>Navigate to _data/alpslab.yml</li>
+  <li>Find their data entry, copy it, then delete it</li>
+  <li>Re-add their data entry to the “Lab Alumni” section, including only their name, webpage (if they have one), and image.</li>
+  <li>Follow instructions under “publish changes”</li>
+</ol>
+
+<h2 id="change-the-heading-picture">Change the heading picture</h2>
+<p>You need:</p>
+<ul>
+  <li>the new lab image</li>
+</ul>
+
+<ol>
+  <li>Go to images/ and rename the current ‘lab_members.jpg’ to ‘lab_members[year photo was taken].jpg’.</li>
+  <li>Add your new image in this folder and name it ‘lab_members.jpg’</li>
+  <li>Follow instructions under “publish changes”</li>
+</ol>
+
+<h1 id="publications">Publications</h1>
+
+<h2 id="naming-nomenclature">Naming Nomenclature</h2>
+
+<p>Bibtex entry keys and pdf names should be identical in order to link the [preprint] button with the pdf. The bib.bib file is ordered chronolocially with “submitted” and “to appear” articles at the bottom.</p>
+
+<p>The bib entry key and pdf name nomenclature used is: [year][AuthorLastName]</p>
+<ul>
+  <li>use CamelCase</li>
+  <li>Use the last names of the first two authors, if there are more than two append the string “EtAl” to the name</li>
+  <li>if there are multiple articles from the same years and same authors, append the second article name with “B”, the third with “C”, etc.</li>
+  <li>For “to appear” articles add the string “ToAppear” before the author last names</li>
+  <li>For “submitted” articles add the string “Submitted” before the author last names</li>
+</ul>
+
+<p>None of the keys use underscores in order to avoid parsing issues with certain programs which would interprate them as subscripts.</p>
+
+<p>Please keep the bib.bib file organized, otherwise mistakes/missing information is harder to find!</p>
+
+<h2 id="add-a-publication-entry">Add a publication entry</h2>
+<p>You need:</p>
+<ul>
+  <li>the metadata of the publication</li>
+  <li>to have the following things installed locally:
+    <ul>
+      <li>python</li>
+      <li>pyyaml (https://pyyaml.org/) (install it by running ‘pip install pyyaml’ in terminal)</li>
+      <li>bibtexparser (https://bibtexparser.readthedocs.io/en/master/) (install it by running ‘pip install bibtexparser’ in terminal)</li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>Go to _data/bib.bib and add the new publication as a normal bibtex entry</li>
+  <li>Run the bib_to_yml.py python script found in _data/ locally. You can do so by navigating to the _data folder in the terminal and typing the command “python bib_to_yml.py”</li>
+  <li>Follow instructions under “publish changes”</li>
+</ol>
+
+<p>Furter Notes:</p>
+
+<p>Step (1): If the publication is not yet published, instead of including a year, write “to appear” (if its a manuscript that has been accepted already) or “submitted” (if its a manuscript that has been submitted but not yet accepted). In the Publication section, the “Pending”, “To Appear”, and “Submitted” headers will automatically appear if there is an entry in the bibtex where the year is set to “to appear” or “submitted”.</p>
+
+<p>Step (2): We want to have a bibtex file with all the bib entries of our bibliography. However, the website only knows how to interface with yaml files, not bibtex files. So the python script takes everything in the bibtex file and converts it to a yaml file that the website can then parse. On the Publications page there is a [bibtex] button which shows the bibtex entry. This button doesn’t actually reference the bib.bib file but rather takes the information from the yaml and converts it to text which is formatted like a bibtex entry. (Technically, this means that the information about each paper in the bib.bib file can be in any order, as this script orders the information in a standardized way. But, again, try to stay organized when editing the bib.bib file or adding a new publication!).</p>
+
+<h2 id="change-publication-information">Change publication information</h2>
+<p>Do this if you found a mistake/missing link of a publication already published to the website, or if a publication has been published and needs to be moved from the “to appear” or “submitted” sections.</p>
+
+<h1 id="view-changes-locallytroubleshooting">View changes locally/Troubleshooting</h1>
+<p>You need:</p>
+<ul>
+  <li>Install Jekyll locally</li>
+</ul>
+
+<ol>
+  <li>Navigate to the root of the ALPS website folder using terminal and execute command “bundle exec jekyll serve” (or “jekyll serve”)</li>
+  <li>You will see an output that looks like this:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Configuration file: /Users/stefan/Desktop/repos/ALPS_website/_config.yml
+         Source: /Users/stefan/Desktop/repos/ALPS_website
+    Destination: /Users/stefan/Desktop/repos/ALPS_website/_site
+ Incremental build: disabled. Enable with --incremental
+   Generating...
+    Jekyll Feed: Generating feed for posts
+                 done in 0.536 seconds.
+ Auto-regeneration: enabled for '/Users/stefan/Desktop/repos/ALPS_website'
+ Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+</code></pre></div>    </div>
+  </li>
+  <li>Copy the “server address” and paste it as a URL in your browser. This will take you to a local version of the website. Note that this is not accessible to anyone except you, so feel free to make any changes. The changes will only become visible when you push them to the github repo.</li>
+</ol>
+
+<p>If in step (2) you do not see the above input, but an error message, this means that there was an error compiling your code. These are usually syntax errors. The messages that pop up in terminal are helpful in locating the syntax error.</p>
+
+<p>If you make local changes with the website open locally on your browser, just hit save and the changes should automatically be reflected in your local browser. The fact that you saved the document will be reflected in the terminal in which you typed “jekyll serve”. The terminal will also show you error messages that come up as you are editing the website. Be aware that if you make a change that is fatal to the website (e.g. a syntax error), terminal will show you a red message letting you know that this error message will keep the site from working, but the locally running website will not reflect that change (or any future changes until you fix the fatal error).</p>
+
+<p>Final word of warning: the website that you see on the webpage is already compiled and entirely the output product of the jekyll framework, meaning it does not have access to the individual .html/.md/.yml files found in this repo nor does it have any access to the liquid syntax. So none of the that code will be visible in the web browser developer tools. In order to find and fix bugs, you have to use the terminal and the repo code and can’t solely rely on the (locally running) webpage.</p>
+
+<h1 id="publish-changes">Publish Changes</h1>
+<ol>
+  <li>Commit + Add + Push changes to the github repo</li>
+  <li>Check that the changes were succesfully rendered on gitpages in the github repo</li>
+  <li>??? ANything else, To be seen</li>
+</ol>
+
+<h1 id="old-stuff">OLD STUFF</h1>
+<p>The rest is legacy documentation from when the website was published using the Stanford AFS servers (the original place where the website was hosted). It may prove useful while troubleshooting.</p>
+
+<h2 id="overview">Overview</h2>
+
+<ol>
+  <li>Make changes and push to github (make sure you have collaborator privilages, and see later sections for details on specific kinds of changes)</li>
+  <li>
+    <p>Go to <code class="language-plaintext highlighter-rouge">/afs/ir.stanford.edu/group/alpslab/alpslab.stanford.edu</code> and pull your changes</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ssh [SUNetID]@cardinal.stanford.edu
+ cd /afs/ir.stanford.edu/group/alpslab/alpslab.stanford.edu
+ git pull
+</code></pre></div>    </div>
+
+    <p>There’s a script on the server that makes the changes live after a successful merge.</p>
+  </li>
+</ol>
+
+<h2 id="specific-kinds-of-changes">Specific kinds of changes</h2>
+
+<h3 id="how-to-add-a-new-page-to-the-website">How to add a new page to the website</h3>
+
+<ol>
+  <li>
+    <p>make a markdown file, e.g. <code class="language-plaintext highlighter-rouge">new-file.md</code> in the top of the <code class="language-plaintext highlighter-rouge">alpslab.stanford.edu</code> directory</p>
+  </li>
+  <li>
+    <p>add this to the top of the markdown file:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ---
+ layout: default
+ ---
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>if you want this page to appear in the navbar, add another value to the header:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ---
+ layout: default
+ title: New Page
+ ---
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>visit <code class="language-plaintext highlighter-rouge">alpslab.stanford.edu/new-page.html</code>.</p>
+  </li>
+</ol>
+
+<h3 id="how-to-add-a-new-entry-to-the-news-section">How to add a new entry to the “News” section</h3>
+
+<ol>
+  <li>
+    <p>make a markdown file in the _posts folder. give it a name according to these conventions: yyyy-mm-dd-title.md</p>
+  </li>
+  <li>
+    <p>give it a header of the following form:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ---
+ layout: post
+ title:  "YOUR TITLE"
+ date:   2018-03-03 16:16:01 -0600 [your date/time goes here]
+ categories: [a couple relevant tags]
+ ---
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Write the body of your post below the header.</p>
+  </li>
+</ol>
+
+<h3 id="how-to-add-a-person-to-the-website">How to add a person to the website</h3>
+
+<ol>
+  <li>
+    <p>go to the file <code class="language-plaintext highlighter-rouge">_data/alpslab.yml</code></p>
+  </li>
+  <li>
+    <p>find (or add) whatever role they play in the lab (e.g. Principal Investigator, Graduate Student, Alumni), and add a new person to that role.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> - role: [WHATEVER ROLE]
+   people:
+     - [OTHER PEOPLE]
+     - name: New Person
+       img: newPerson.jpg
+       webpage: //www.stanford.edu/~newP
+       bio:
+         - &gt;
+           A paragraph of this person's bio.
+         - &gt;
+           Another paragraph of this person's bio.
+     - [OTHER PEOPLE]
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="how-to-add-a-publication-to-the-website">How to add a publication to the website</h3>
+
+<ol>
+  <li>go to the file <code class="language-plaintext highlighter-rouge">_bibliography/alpslab.bib</code> and add the publication.</li>
+</ol>
+
+<p>If the publication is not appearing once you publish it to the website, this could be because of:</p>
+<ol>
+  <li>A typo in the alpslab.bib file. Make sure all the commas are in the right places!</li>
+  <li>You haven’t published anything for this year yet and don’t have the year header set up.</li>
+</ol>
+
+<p>If (2) is the case, navigate to _config.yml at the root of the directory. Change line 12 as follows</p>
+
+<p><code class="language-plaintext highlighter-rouge">max_year: *insert new year*</code></p>
+
+<p>Then navigate to 02-publications.md at the root of the directory. Change line 18 as follows:</p>
+
+<p><code class="language-plaintext highlighter-rouge">...for year in (2011..*insert new year*)...</code></p>
+
+<h3 id="how-to-add-an-image-to-the-front-page-carousel">How to add an image to the front page carousel</h3>
+
+<ol>
+  <li>
+    <p>got to the file <code class="language-plaintext highlighter-rouge">_data/carousel.yml</code></p>
+  </li>
+  <li>
+    <p>add a new image to the end of the file</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> - [OTHER IMAGES]
+ - image: my-new-image.jpg
+   label: "A description of my new image"
+   alt: "if you want, you can add a line of alt text. otherwise, the label will be the alt text."
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<p>If the website does not update within a minute or so of making these changes, this might be because the build script has stopped working. Run</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll build
+rsync -r -a -v _site/* ../WWW/
+</code></pre></div></div>
+
+<p>in a terminal on the Stanford server in the <code class="language-plaintext highlighter-rouge">/afs/ir.stanford.edu/group/alpslab/alpslab.stanford.edu</code> directory.</p>
+
+<h3 id="setup">Setup</h3>
+
+<p>As of 9/25/2018, the website can be updated provided one has Ruby 2.5.1, Jekyll 3.8.4, Jekyll-Scholar 5.1.4, and Redcarpet 3.4.0 (back compatibility with earlier versions of the aforementioned software is possible but not guaranteed). Your Cardinal account comes with versions of Ruby and Jekyll that are incompatible with the website. First, update Ruby via rbenv:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># get rbenv
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bashrc
+echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bashrc
+# run the updated .bashrc
+source ~/.bashrc
+# fetch the ruby-build installer plugin to make things easier
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+# download Ruby 2.5.1. this will take some time.
+rbenv install 2.5.1
+# set your system's default ruby to 2.5.1
+rbenv global 2.5.1
+</code></pre></div></div>
+
+<p>Next, get fresh Jekyll, and install Jekyll-Scholar and Redcarpet:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install redcarpet -v 3.4.0
+gem install jekyll -v 3.8.4
+gem install jekyll-scholar -v 5.14.0
+</code></pre></div></div>
+
+<p>Lastly, ensure that local encoding is set to UTF-8:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+</code></pre></div></div>
+
+<p>Note that while <code class="language-plaintext highlighter-rouge">jekyll</code> is compatible with <a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/">GitHub pages</a>, <a href="https://github.com/inukshuk/jekyll-scholar#github-pages"><code class="language-plaintext highlighter-rouge">jekyll-scholar</code> is not</a>.</p>
+
+<p>For local debugging, one could run</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll build
+</code></pre></div></div>
+
+<p>and then navigate to <code class="language-plaintext highlighter-rouge">_site/index.html</code>.</p>
+
+<!-- Unfortunately, the links in this repo are currently hard-coded with the assumption that all files are present at the host (in the online version, `http://cocolab.stanford.edu/`, in the local version `file://`), so further abstraction and modifications would have to be made in order to actually navigate the site locally... --->
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+<p><a href="https://linguistics.stanford.edu/">Stanford Linguistics</a> - <a href="http://stanford.edu">Stanford University</a></p>
+
+<!-- <a href="https://twitter.com/ALPSLabStanford">ALPS Lab Twitter</a> -->
+
+
+  <!-- <div class="wrapper">
+    
+
+   <h2 class="footer-heading">ALPS Lab</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>ALPS Lab</li>
+          <li><a href="mailto:jdegen@stanford.edu">jdegen@stanford.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/thegricean">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">thegricean</span>
+            </a>
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">interActive Language Processing Lab at Stanford (ALPS Lab for short)
+</p>
+      </div>
+    </div>-->
+
+  </div> 
+
+</footer>
+
+
+  </body>
+
+</html>
