@@ -1184,7 +1184,7 @@
   website: https://escholarship.org/uc/item/8k59g29g
   year: '2022'
 - ENTRYTYPE: article
-  ID: DegenTonhauser2022
+  ID: DegenTonhauser2022B
   abstract: Properties of the content of the clausal complement have long been assumed
     to distinguish factive predicates like 'know' from non-factive ones like 'think'
     (Kiparsky and Kiparsky 1970, i.a.). There is, however, disagreement about which
@@ -1230,9 +1230,9 @@
     language.'
   author: Degen, Judith
   journal: Annual Review of Linguistics
-  number: '3'
+  pages: 519-540
   title: The Rational Speech Act Framework
-  volume: '98'
+  volume: '9'
   website: https://www.annualreviews.org/doi/abs/10.1146/annurev-linguistics-031220-010811
   year: '2023'
 - ENTRYTYPE: inproceedings
@@ -1256,4 +1256,4 @@
   booktitle: Transactions of the Association for Computational Linguistics
   title: Expectations over unspoken alternatives predict pragmatic inferences
   website: papers/2023HuEtAl.pdf
-  year: '2023'
+  year: to appear
