@@ -1,23 +1,4 @@
 - ENTRYTYPE: inproceedings
-  ID: 2011DegenTanenhaus
-  abstract: Scalar implicature has served as a test case for investigating the nature
-    of inference processes in language comprehension. Specifically, the question of
-    whether or not scalar implicatures are computed by default has been extensively
-    investigated in recent years. We argue that the question of default is overly
-    simplistic and propose instead to think of scalar implicature computation as a
-    problem of optimal cue combination within a constraint-based framework. We provide
-    evidence from three experiments supporting the view that multiple constraints
-    of differing strength operate in parallel to provide probabilistic support for
-    or against an implicature.
-  author: Degen, Judith and Tanenhaus, Michael K.
-  booktitle: Proceedings of the 33rd Annual Conference of the Cognitive Science Society
-  editor: "Carlson, L. and H\xF6lscher, C. and Shipley, T."
-  keywords: experimental pragmatics,eye-tracking,scalar implicature,subitizing
-  pages: 3299--3304
-  title: 'Making inferences: the case of scalar implicature processing'
-  website: https://escholarship.org/uc/item/2jn9g3gf
-  year: '2011'
-- ENTRYTYPE: inproceedings
   ID: 2012DegenFranke
   author: Degen, Judith and Franke, Michael
   booktitle: Proceedings of the 16th Workshop on the Semantics and Pragmatics of Dialogue
@@ -883,6 +864,55 @@
   volume: '5'
   website: https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00042/106927/Prior-Beliefs-Modulate-Projection
   year: '2021'
+- ENTRYTYPE: article
+  ID: 2021HahnDegenEtAl
+  abstract: 'Memory limitations are known to constrain language comprehension and
+    production, and have been argued to account for crosslinguistic word order regularities.
+
+    However, a systematic assessment of the role of memory limitations in language
+    structure has proven elusive, in part because it is hard to extract precise large-scale
+    quantitative generalizations about language from existing mechanistic models of
+    memory use in sentence processing.
+
+    We provide an architecture-independent information-theoretic formalization of
+    memory limitations which enables a simple calculation of the memory efficiency
+    of languages.
+
+    Our notion of memory efficiency is based on the idea of a memory--surprisal tradeoff:
+    a certain level of average surprisal per word can only be achieved at the cost
+    of storing some amount of information about past context.
+
+    Based on this notion of memory usage, we advance the Efficient Tradeoff Hypothesis:
+    the order of elements in natural language is under pressure to enable favorable
+    memory-surprisal tradeoffs.
+
+    We derive that languages enable more efficient tradeoffs when they exhibit information
+    locality: when predictive information about an element is concentrated in its
+    recent past.
+
+    We provide empirical evidence from three test domains in support of the Efficient
+    Tradeoff Hypothesis:
+
+    a reanalysis of a miniature artificial language learning experiment, a large-scale
+    study of word order in corpora of 54 languages, and an analysis of morpheme order
+    in two agglutinative languages. These results suggest that principles of order
+    in natural language can be explained via highly generic cognitively motivated
+    principles and lend support to efficiency-based models of the structure of human
+    language.'
+  archiveprefix: psyarxiv
+  author: Hahn, Michael and Degen, Judith and Futrell, Richard
+  doi: 10.31234/osf.io/nu4qz
+  github: https://github.com/m-hahn/memory-surprisal
+  issue: '4'
+  journal: Psychological Review
+  pages: 726--756
+  slides: files/osf-CUNY 2019-Tradeoff.pdf
+  supplement: files/hahn_psychreview_2021_si.pdf
+  title: Modeling word and morpheme order in natural language as an efficient tradeoff
+    of memory and surprisal
+  volume: '128'
+  website: https://psycnet.apa.org/record/2021-31510-001
+  year: '2021'
 - ENTRYTYPE: inproceedings
   ID: 2021KursatDegen
   abstract: "When referring to objects, speakers are often more specific than neces-\
@@ -1048,7 +1078,7 @@
   website: https://escholarship.org/uc/item/7dv5142s
   year: '2022'
 - ENTRYTYPE: incollection
-  ID: 2022DegenTonhauser
+  ID: 2022DegenTonhauserA
   author: Degen, Judith and Tonhauser, Judith
   booktitle: The Open Handbook of Linguistic Data Management
   doi: 10.7551/mitpress/12200.003.0052
@@ -1154,7 +1184,7 @@
   website: https://escholarship.org/uc/item/8k59g29g
   year: '2022'
 - ENTRYTYPE: article
-  ID: 2022DegenTonhauserB
+  ID: DegenTonhauser2022
   abstract: Properties of the content of the clausal complement have long been assumed
     to distinguish factive predicates like 'know' from non-factive ones like 'think'
     (Kiparsky and Kiparsky 1970, i.a.). There is, however, disagreement about which
@@ -1174,36 +1204,14 @@
     is sensitive to more fine-grained meaning distinctions between clause-embedding
     predicates than factivity.
   author: Degen, Judith and Tonhauser, Judith
+  doi: doi:10.1353/lan.2022.0015
+  issue: '3'
   journal: Language
-  pages: 552-591
-  publisher: Linguistic Society of America
   title: Are there factive predicates? An empirical investigation
-  url: https://ling.auf.net/lingbuzz/005360
+  url: https://muse.jhu.edu/article/865005
   volume: '98'
-  website: https://muse.jhu.edu/pub/24/article/864635
+  website: papers/2022DegenTonhauserB.pdf
   year: '2022'
-- ENTRYTYPE: article
-  ID: SubmittedSwansonEtAl
-  abstract: "Syntactic adaptation may be a key mechanism underlying children\u2019\
-    s learning of novel words. Havron et al. (2019) exposed French-speaking children\
-    \ (ages 3 to 4) to a speaker biased toward using either familiar verbs or familiar\
-    \ nouns in a syntactic context which permitted both structures. This prime later\
-    \ influenced participants\u2019 interpretations of ambiguous novel words presented\
-    \ in the same syntactic frame. In Experiment 1, we successfully replicated Havron\
-    \ et al. with 77 French-speaking adults, using a web-based eye-tracking paradigm.\
-    \ Experiment 2 adapted the paradigm to English, finding that repeated exposure\
-    \ to a syntactic structure induced 102 English-speaking adults to update their\
-    \ expectations about the meanings of novel words. Experiment 3 found similar evidence\
-    \ of syntactic adaptation in 74 three- to five-year-old English-speaking children.\
-    \ Participants adapted to the specific linguistic structure used, not just the\
-    \ speaker\u2019s tendency to mention actions or objects. These findings support\
-    \ the role of rapid adaptation during word learning and demonstrate the feasibility\
-    \ of conducting eye-tracking studies through online platforms."
-  author: Swanson, Elizabeth and Frank, Michael C. and Degen, Judith
-  doi: 10.31234/osf.io/zkvcq
-  title: Syntactic Adaptation and Word Learning in Children and Adults
-  website: https://psyarxiv.com/zkvcq/
-  year: submitted
 - ENTRYTYPE: article
   ID: 2023Degen
   abstract: 'The past decade has seen the rapid development of a new approach to pragmatics
@@ -1226,4 +1234,26 @@
   title: The Rational Speech Act Framework
   volume: '98'
   website: https://www.annualreviews.org/doi/abs/10.1146/annurev-linguistics-031220-010811
+  year: '2023'
+- ENTRYTYPE: inproceedings
+  ID: HuEtAl2023
+  abstract: "Scalar inferences (SI) are a signature example of how humans interpret\
+    \ language based on unspoken alternatives. While empirical studies have demonstrated\
+    \ that human SI rates are highly variable \u2013 both within instances of a single\
+    \ scale, and across different scales \u2013 there have been few proposals that\
+    \ quantitatively explain both cross- and within-scale variation. Furthermore,\
+    \ while it is generally assumed that SIs arise through reasoning about unspoken\
+    \ alternatives, it remains debated whether humans reason about alternatives as\
+    \ linguistic forms, or at the level of concepts. Here, we test a shared mechanism\
+    \ explaining SI rates within and across scales: context-driven expectations about\
+    \ the unspoken alternatives. Using neural language models to approximate human\
+    \ predictive distributions, we find that SI rates are captured by the expectedness\
+    \ of the strong scalemate as an alternative. Crucially, however, expectedness\
+    \ robustly predicts cross-scale variation only under a meaning-based view of alternatives.\
+    \ Our results suggest that pragmatic inferences arise from context-driven expectations\
+    \ over alternatives, and these expectations operate at the level of concepts."
+  author: Hu, Jennifer and Levy, Roger and Degen, Judith and Schuster, Sebastian
+  booktitle: Transactions of the Association for Computational Linguistics
+  title: Expectations over unspoken alternatives predict pragmatic inferences
+  website: papers/2023HuEtAl.pdf
   year: '2023'
