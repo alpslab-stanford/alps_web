@@ -18,7 +18,7 @@ permalink: resources.html
 
 ## Software
 
-* [TDTlite -- the TGrep2 Database Tools for searching syntactically parsed corpora]({{site.url}}{{site.baseurl}}/tdtlite.html)
+* [TDTlite -- the TGrep2 Database Tools for searching syntactically parsed corpora](https://github.com/thegricean/tgrep2_tdtlite)
 
 ## Internal
 
