@@ -5,6 +5,7 @@ description: >
   interActive Language Processing Lab at Stanford
   (ALPS Lab for short)
 url: "https://alpslab-stanford.github.io"
+baseurl: '/alps_web'
 github_username:  thegricean
 
 # plugins: ['jekyll/scholar']
