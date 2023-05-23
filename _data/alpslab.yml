@@ -71,6 +71,12 @@
       bio:
         - >
           Neil is an undergraduate student studying Linguistics and Math. He is interested in morphology and pragmatics. Specifically, he is interested in probabilistic models of language processing and comprehension, as well as their broader cross-linguistic and typological implications.
+    
+    - name: Lian Wang
+      img: lian.JPEG
+      bio:
+        - >
+          Lian is an undergraduate linguistics major. She is broadly interested in situating language in the human cognitive system. She works on syntax and computational models of language.
 
 - role: Lab Alumni
   people:
