@@ -22,7 +22,9 @@ This includes links to the paper and a button which will show the bibtex entry
     {{ output.title }}.
   {%- endif -%}
 
-  &nbsp;{{ output.author }}. ({{ output.year }}).
+
+
+  &nbsp;{{ output.formattedauthor }}. ({{ output.year }}).
 
   <!-- Include the words "in" only for conference proceedings, and never
         for "submitted" items -->
@@ -59,6 +61,9 @@ This includes links to the paper and a button which will show the bibtex entry
     <!-- skip Entrytype and ID as those are already printed by line above -->
     {%- if outputField[0] == "ENTRYTYPE" -%}
     {%- elsif outputField[0] == "ID" -%}
+    {%- elsif outputField[0] == "website" -%} <!--added to make "Website" not show up in bibtex -->
+    {%- elsif outputField[0] == "url" -%}<!--added to make "url" not show up in bibtex -->
+    {%- elsif outputField[0] == "formattedauthor" -%}<!--added to make "formattedauthor" not show up in bibtex -->
     {%- else -%}
       <!-- Print the key == value for the publication field -->
       {{ outputField[0] }} = { {{ outputField[1] }} }
