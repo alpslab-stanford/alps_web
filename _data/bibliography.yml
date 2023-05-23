@@ -1,4 +1,23 @@
 - ENTRYTYPE: inproceedings
+  ID: 2011DegenTanenhaus
+  abstract: Scalar implicature has served as a test case for investigating the nature
+    of inference processes in language comprehension. Specifically, the question of
+    whether or not scalar implicatures are computed by default has been extensively
+    investigated in recent years. We argue that the question of default is overly
+    simplistic and propose instead to think of scalar implicature computation as a
+    problem of optimal cue combination within a constraint-based framework. We provide
+    evidence from three experiments supporting the view that multiple constraints
+    of differing strength operate in parallel to provide probabilistic support for
+    or against an implicature.
+  author: Degen, Judith and Tanenhaus, Michael K.
+  booktitle: Proceedings of the 33rd Annual Conference of the Cognitive Science Society
+  editor: "Carlson, L. and H\xF6lscher, C. and Shipley, T."
+  formattedauthor: Degen, J. and Tanenhaus, M. K
+  keywords: experimental pragmatics,eye-tracking,scalar implicature,subitizing
+  pages: 3299--3304
+  title: 'Making inferences: the case of scalar implicature processing'
+  year: '2011'
+- ENTRYTYPE: inproceedings
   ID: 2012DegenFranke
   author: Degen, Judith and Franke, Michael
   booktitle: Proceedings of the 16th Workshop on the Semantics and Pragmatics of Dialogue
@@ -1282,5 +1301,98 @@
   booktitle: Transactions of the Association for Computational Linguistics
   formattedauthor: Hu, J., Levy, R., Degen, J., and Schuster, S
   title: Expectations over unspoken alternatives predict pragmatic inferences
-  website: papers/2023HuEtAl.pdf
+  website: https://arxiv.org/abs/2304.04758
+  year: to appear
+- ENTRYTYPE: inproceedings
+  ID: 2023YuEtAl
+  abstract: "The world\u2019s languages differ in how they order adjectives and nouns\
+    \ relative to each other. We ask whether cross-linguistic variation and systematicity\
+    \ in adjective-noun order can be explained by the iterated pressure for pragmatic\
+    \ referential communication. To this end, we apply the Rational Speech Act framework\
+    \ with an an iterated learning mechanism to study how cooperative pressures may\
+    \ shape typological regularities in referential communication. First, we show\
+    \ that the less informative adjectives are relative to nouns, the more likely\
+    \ they are to occur post-nominally. This is the case when informativeness is manipulated\
+    \ via the composition of the lexical space (i.e., changing the relative number\
+    \ of adjectives vs. nouns that are available for reference), and via the inherent\
+    \ referential utility of adjectives vs. nouns. Secondly, we show that under the\
+    \ assumption that nouns are on average more informative than adjectives, the model\
+    \ predicts a cross-linguistic distribution of ordering preferences that qualitatively\
+    \ resembles the empirical one, with these biases becoming further entrenched with\
+    \ iterated language use. Taken together, these results suggest a possible pathway\
+    \ for syntactic preferences to be calcified over time as the result of pragmatic\
+    \ communicative pressures on language."
+  author: Yu, Dhara and Waldon, Brandon, and Degen, Judith
+  booktitle: Proceedings of the 45th Annual Conference of the Cognitive Science Society
+  formattedauthor: Yu, D., Waldon, B., and Degen, J
+  title: The cross-linguistic order of adjectives and nouns may be the result of iterated
+    pragmatic pressures on referential communication
+  website: https://psyarxiv.com/7q5j4/
+  year: to appear
+- ENTRYTYPE: inproceedings
+  ID: 2023WaldonEtAl
+  abstract: 'We present a large-scale conceptual replication of an experiment that
+    provided evidence of false consensus biases in legal interpretation: when reading
+    a legal contract, individuals tend to over-estimate the extent to which others
+    would agree with their interpretation of that contract (Solan, Rosenblatt, & Osherson,
+    2008). Our results are consistent with this previous finding. We also observe
+    substantial unexplained item-level variation in the extent to which individuals
+    agree on contract interpretation, as well as unexplained variation in the extent
+    towhich the false consensus bias holds across different contexts.In a first step
+    towards understanding the source(s) of this variability,we show that a state-of-the-art
+    large language model (LLM) with zero-shot prompting does not robustly predict
+    the degree to which interpreters will exhibit consensus in a given context. However,
+    performance improves when the model is exposed to data of the form collected in
+    our experiment, suggesting a path forward for modeling and predicting variabilityin
+    the interpretation of legally-relevant natural language.'
+  author: Waldon, Brandon and Brodsky, Madigan and Ma, Megan and Degen, Judith
+  booktitle: Proceedings of the 45th Annual Conference of the Cognitive Science Society
+  formattedauthor: Waldon, B., Brodsky, M., Ma, M., and Degen, J
+  title: Predicting consensus in legal document interpretation
+  website: papers/2023WaldonEtAl.pdf
+  year: to appear
+- ENTRYTYPE: inproceedings
+  ID: 2023PanDegen
+  abstract: "Projection inferences are inferences about speaker commitment to a content\
+    \ embedded under an entailment-canceling operator, for example in polar interrogatives\
+    \ with clauseembedding predicates (Does John know that Julian dances Salsa?).\
+    \ Speaker commitment to embedded content is modulated by multiple factors, including\
+    \ the predicate, interlocutors\u2019prior beliefs about the content, and its at-issueness.\
+    \ We propose an RSA model of projection inferences in such environments. Crucially,\
+    \ we take the interpretive procedure to involve inferring a speaker\u2019s and\
+    \ attitude holder\u2019s belief in the content. In a behavioral study, we investigate\
+    \ inferred beliefs about contents embedded under the predicates \u201Cthink\u201D\
+    \ and \u201Cknow\u201D that listeners ascribe to the speaker and a potential attitude\
+    \ holder. We use the empirical data to parametrize themodel. The resulting predictions\
+    \ mirror some, but not all, ofthe qualitative empirical patterns. This is a first\
+    \ step towards a systematic analysis of projection inferences using probabilistic\
+    \ pragmatic models."
+  author: Pan, Dingyi and Degen, Judith
+  booktitle: Proceedings of the 45th Annual Conference of the Cognitive Science Society
+  formattedauthor: Pan, D., and Degen, J
+  title: Towards a computational account of projection inferences in polar interrogatives
+    with clause-embedding predicates
+  website: papers/2023PanDegen.pdf
+  year: to appear
+- ENTRYTYPE: inproceedings
+  ID: 2023FishmanDegen
+  abstract: "Using evidential expressions to indicate one\u2019s source of information\
+    \ for an utterance tends to convey uncertainty on the speaker\u2019s part. Previous\
+    \ accounts of this uncertainty inference attribute it to either extralinguistic\
+    \ reasoning about evidence directness, or to pragmatic reasoning about alternative\
+    \ utterances. Here we present a novel hybrid account, and introduce a set of utterances\
+    \ which allows us to tease apart the three accounts\u2019 predictions. We test\
+    \ these predictions in two studies by manipulating the directness of evidence\
+    \ indicated by an evidential expression. Exp. 1 shows that listeners infer more\
+    \ uncertainty with extreme values of directness. Exp. 2 shows that speakers are\
+    \ more likely to indicate evidence in contexts where the evidence is unreliable.\
+    \ We argue that these findings support an account which involves both extralinguistic\
+    \ and pragmatic reasoning, and develop a formal implementation of such an account\
+    \ within the Rational Speech Act framework."
+  author: Fishman, Alon and Degen, Judith
+  booktitle: Proceedings of the 45th Annual Conference of the Cognitive Science Society
+  formattedauthor: Fishman, F., and Degen, J
+  title: 'Evidential uncertainty involves both pragmatic and extralinguistic reasoning:
+    a computational account'
+  website: papers/2023FishmanDegen.pdf
   year: to appear
