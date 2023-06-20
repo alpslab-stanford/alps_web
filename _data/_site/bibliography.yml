@@ -1,28 +1,9 @@
 - ENTRYTYPE: inproceedings
-  ID: 2011DegenTanenhaus
-  abstract: Scalar implicature has served as a test case for investigating the nature
-    of inference processes in language comprehension. Specifically, the question of
-    whether or not scalar implicatures are computed by default has been extensively
-    investigated in recent years. We argue that the question of default is overly
-    simplistic and propose instead to think of scalar implicature computation as a
-    problem of optimal cue combination within a constraint-based framework. We provide
-    evidence from three experiments supporting the view that multiple constraints
-    of differing strength operate in parallel to provide probabilistic support for
-    or against an implicature.
-  author: Degen, Judith and Tanenhaus, Michael K.
-  booktitle: Proceedings of the 33rd Annual Conference of the Cognitive Science Society
-  editor: "Carlson, L. and H\xF6lscher, C. and Shipley, T."
-  formattedauthor: Degen, J. and Tanenhaus, M. K
-  keywords: experimental pragmatics,eye-tracking,scalar implicature,subitizing
-  pages: 3299--3304
-  title: 'Making inferences: the case of scalar implicature processing'
-  year: '2011'
-- ENTRYTYPE: inproceedings
   ID: 2012DegenFranke
   author: Degen, Judith and Franke, Michael
   booktitle: Proceedings of the 16th Workshop on the Semantics and Pragmatics of Dialogue
   editor: Brown-Schmidt, Sarah and Ginzburg, Jonathan and Larsson, S.
-  formattedauthor: Degen, J. and Franke, M
+  formattedauthor: Degen, J. and Franke, M.
   pages: 2 -- 11
   title: Optimal Reasoning About Referential Expressions
   website: http://semdial.org/anthology/papers/Z/Z12/Z12-3004/
@@ -48,7 +29,6 @@
     of scalar implicatures across different contexts, b) the varying speed of scalar
     implica- tures across different contexts, and c) the speed and efficiency of communication.
   author: Degen, Judith
-  formattedauthor: Degen, J
   journal: University of Rochester
   title: Alternatives in Pragmatic Reasoning
   website: https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=27503&versionNumber=1
@@ -68,7 +48,6 @@
     \ raises interesting issues for future research."
   author: "Degen, Judith and Franke, Michael and J\xE4ger, Gerhard"
   booktitle: Proceedings of the 35th Annual Meeting of the Cognitive Science Society
-  formattedauthor: "Degen, J., Franke, M., and J\xE4ger, G"
   title: Cost-Based Pragmatic Inference about Referential Expressions
   website: https://escholarship.org/uc/item/1td8n2r7
   year: '2013'
@@ -84,10 +63,9 @@
     \ and find that listeners adapt to those distributions, as predicted. Our results\
     \ suggest that the interpretation of quanti- fiers is best modeled as a process\
     \ involving rich, probabilistic representations."
-  author: Yildrim, Ilker and Degen, Judith and Tanenhaus, Michael J., and Jaeger,
-    T. Florian
+  author: Yildrim, Ilker and Degen, Judith and Tanenhaus, Michael J. and Jaeger, T.
+    Florian
   booktitle: Proceedings of the Annual Meeting of the Cognitive Science Society
-  formattedauthor: Yildrim, I., Degen, J., Tanenhaus, M. J., and Jaeger, T. F
   title: Linguistic Variability and Adaptation in Quantifier Meanings
   volume: '35'
   website: https://escholarship.org/uc/item/7h5003md
@@ -108,7 +86,6 @@
     finding can be understood and predicted by using the framework of probabilistic
     pragmatics.'
   author: Degen, Judith and Goodman, Noah D
-  formattedauthor: Degen, J. and Goodman, N.
   journal: Proceedings of the 36th Annual Conference of the Cognitive Science Society
   keywords: pragmatics,psycholinguistics,scalar implicature
   pages: 397--402
@@ -133,7 +110,6 @@
   author: Hawkins, Robert XD and Stuhlmuller, Andreas and Degen, Judith and Goodman,
     Noah D
   booktitle: Proceedings of the 37th Annual Conference of the Cognitive Science Society
-  formattedauthor: Hawkins, R., Stuhlmuller, A., Degen, J., and Goodman, N
   title: Why do you ask? Good questions provoke informative answers
   website: https://cogsci.mindmodeling.org/2015/papers/0158/index.html
   year: '2015'
@@ -154,7 +130,6 @@
     \ and informing theory in pragmatics."
   author: Degen, Judith
   doi: 10.3765/sp.8.11
-  formattedauthor: Degen, J.
   issn: 1937-8912
   journal: Semantics and Pragmatics
   number: '11'
@@ -187,7 +162,6 @@
   author: Degen, Judith and Tanenhaus, Michael K.
   doi: 10.1111/cogs.12171
   eprint: arXiv:1011.1669v3
-  formattedauthor: Degen, J. and Tanenhaus, M. K
   isbn: '9788578110796'
   issn: '03640213'
   journal: Cognitive Science
@@ -217,7 +191,6 @@
   author: Degen, Judith and Tessler, Michael Henry and Goodman, Noah D
   editor: Noelle, D. C. and Dale, R. and Warlaumont, A. S. and Yoshimi, J. and Matlock,
     T. and Jennings, C. D. and Maglio, P. P.
-  formattedauthor: Degen, J.,Tessler, M.H., and Goodman, N
   journal: Proceedings of the 37th Annual Conference of the Cognitive Science Society
   keywords: computational pragmatics,experimental pragmatics,how often do you,if not
     always,in water,liefs,now imagine read-,prior be-,prior beliefs,probably extremely
@@ -246,7 +219,6 @@
     a constraint-based account of scalar implicature processing.'
   author: Degen, Judith and Tanenhaus, Michael K.
   doi: 10.1111/cogs.12227
-  formattedauthor: Degen, J. and Tanenhaus, M.K
   issn: '15516709'
   journal: Cognitive Science
   keywords: Alternatives,Eye-tracking,Pragmatics,Quantifiers,Scalar implicature
@@ -256,6 +228,29 @@
     A Visual World Eye-Tracking Study'
   volume: '40'
   website: https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.12227
+  year: '2016'
+- ENTRYTYPE: article
+  ID: 2016FrankeDegen
+  abstract: "Recent advances in probabilistic pragmatics have achieved considerable\
+    \ success in modeling speakers\u2019 and listeners\u2019 pragmatic reasoning as\
+    \ probabilistic inference. However, these models are usually applied to population-level\
+    \ data, and so implicitly suggest a homogeneous population without individual\
+    \ differences. Here we investigate potential individual differences in Theory-of-Mind\
+    \ related depth of pragmatic reasoning in so-called reference games that require\
+    \ drawing ad hoc Quantity implicatures of varying complexity. We show by Bayesian\
+    \ model comparison that a model that assumes a heterogenous population is a better\
+    \ predictor of our data, especially for comprehension. We discuss the implications\
+    \ for the treatment of individual differences in probabilistic models of language\
+    \ use."
+  author: Franke, Michael and Degen, Judith
+  doi: 10.1371/journal.pone.0154854
+  journal: PLoS ONE
+  number: '5'
+  pages: 1--25
+  title: 'Reasoning in Reference Games : Individual- vs . Population-Level Probabilistic
+    Modeling'
+  volume: '11'
+  website: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0154854
   year: '2016'
 - ENTRYTYPE: inproceedings
   ID: 2016GrafDegenEtAl
@@ -276,7 +271,6 @@
     D
   booktitle: Proceedings of the 38th Annual Conference of the Cognitive Science Society
   editor: Papafragou, A. and Grodner, D. and Mirman, D. and Trueswell, J.C.
-  formattedauthor: Graf, C., Degen, J., Hawkins, R., and Goodman, N
   keywords: intropsychling
   mendeley-tags: intropsychling
   pages: 2261--2266
@@ -302,7 +296,6 @@
   author: Yildirim, Ilker and Degen, Judith and Tanenhaus, Michael K. and Jaeger,
     T. Florian
   doi: 10.1016/j.jml.2015.08.003
-  formattedauthor: Yildirim, I., Degen, J.,Tanenhaus, M.K., and Jaeger, T.F
   issn: 0749596X
   journal: Journal of Memory and Language
   keywords: Adaptation,Pragmatics,Quantifiers,Semantics,Talker-specificity
@@ -324,7 +317,6 @@
   annote: 'doi: 10.1162/OPMI{\_}a{\_}00005'
   author: Scontras, Gregory and Degen, Judith and Goodman, Noah D
   doi: 10.1162/OPMI_a_00005
-  formattedauthor: Scontras, G., Degen, J., and Goodman, N
   issue: '1'
   journal: Open Mind
   pages: 53--66
@@ -351,7 +343,6 @@
   author: Hahn, Michael and Degen, Judith and Goodman, Noah and Jurafsky, Dan and
     Futrell, Richard
   booktitle: Proceedings of the 40th Annual Conference of the Cognitive Science Society
-  formattedauthor: Hahn, M., Degen, J., Goodman, N., Jurafsky, D., and Futrell, R
   title: An Information-Theoretic Explanation of Adjective Ordering Preferences
   website: https://cogsci.mindmodeling.org/2018/papers/0339/index.html
   year: '2018'
@@ -403,7 +394,6 @@
     its at-issueness for an empirically adequate analysis of projection.
   author: Tonhauser, Judith and Beaver, David I and Degen, Judith
   doi: 10.1093/jos/ffy007
-  formattedauthor: Tonhauser, J., Beaver, D.I., and Degen, J
   journal: Journal of Semantics
   number: '3'
   pages: 495--542
@@ -429,7 +419,6 @@
   booktitle: Oxford Handbook of Experimental Semantics and Pragmatics
   chapter: '3'
   editor: Cummins, Chris and Katsos, Napoleon
-  formattedauthor: Degen, J., and Tanenhaus, M. K
   isbn: '9780198791768'
   publisher: Oxford University Press
   title: Constraint-based pragmatic processing
@@ -456,8 +445,6 @@
     Eva and Goodman, Noah D
   doi: 10.1016/j.pragma.2018.11.015
   file: :Users/judithdegen/cogsci/papers{\_}misc/2019{\_}DegenTrotzkeEtAl.pdf:pdf
-  formattedauthor: Degen, J., Trotzke, A., Scontras, G., Wittenberg, E., and Goodman,
-    N
   issn: 0378-2166
   journal: Journal of Pragmatics
   keywords: discourse particles,english,evidentials,german,modals,psycholinguistics
@@ -489,7 +476,6 @@
     utterance expectations.'
   author: Jasbi, Masoud and Waldon, Brandon and Degen, Judith
   doi: 10.3389/fpsyg.2019.00189
-  formattedauthor: Jasbi, M., Waldon, B., and Degen, J
   issn: 1664-1078
   journal: Frontiers in Psychology
   keywords: scalar implicature, methodology, linking hypothesis, experimental pragmatics,
@@ -522,7 +508,6 @@
     \ perception in complex ways."
   author: Kreiss, Elisa and Franke, Michael and Degen, Judith
   booktitle: Proceedings of the 41st Annual Conference of the Cognitive Science Society
-  formattedauthor: Kreiss, E., Franke, M., and Degen, J
   keywords: experimental pragmatics; iterated narration; transmission chains; uncertain
     evidence
   title: Uncertain evidence statements and guilt perception in iterative reproductions
@@ -546,7 +531,6 @@
     implications of these results for theories of adaptation.
   author: Schuster, Sebastian and Degen, Judith
   booktitle: Proceedings of the 41st Annual Conference of the Cognitive Science Society
-  formattedauthor: Schuster, S., and Degen, J
   keywords: psycholinguistics; semantics; pragmatics; adaptation; uncertainty expressions
   title: Speaker-specific adaptation to variable use of uncertainty expressions
   website: https://cogsci.mindmodeling.org/2019/papers/0471/index.html
@@ -567,7 +551,6 @@
     space.'
   author: Scontras, Gregory and Degen, Judith and Goodman, Noah
   doi: 10.3765/sp.12.7
-  formattedauthor: Scontras, G., and Degen, J., and Goodman, N
   journal: Semantics and Pragmatics
   keywords: adjective ordering, subjectivity, hierarchical structure, modification,
     reference resolution
@@ -595,7 +578,6 @@
   author: Degen, Judith and Hawkins, Robert X D and Graf, Caroline and Kreiss, Elisa
     and Goodman, Noah D
   doi: 10.1037/rev0000186
-  formattedauthor: Degen, J., Hawkins, R., Graf, C., Kreiss, E., and Goodman, N
   issue: '4'
   journal: Psychological Review
   keywords: language production, reference, overinformativeness, experimental pragmatics,
@@ -624,7 +606,6 @@
     \ more broadly."
   author: Kreiss, Elisa and Degen, Judith
   booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
-  formattedauthor: Kreiss, E., and Degen, J
   keywords: contrastive inference; RSA; typicality; incremental processing
   title: Production Expectations Modulate Contrastive Inference
   volume: '42'
@@ -648,7 +629,6 @@
     \ constraint-based accounts of pragmatic processing."
   author: Kursat, Leyla and Degen, Judith
   booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
-  formattedauthor: Kursat, L., and Degen, J
   keywords: psycholinguistics; experimental pragmatics; scalar inference; Question
     Under Discussion
   title: Probability and processing speed of scalar inferences is context-dependent
@@ -671,7 +651,6 @@
     context.
   author: Portelance, Eva and Degen, Judith and Frank, Michael C.
   booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
-  formattedauthor: Portelance, E., Degen, J., and Frank, M. C
   keywords: Language model; recurrent neural network; LSTM; language acquisition;
     age of acquisition; child directed speech; word learning.
   title: Predicting Age of Acquisition in Early Word Learning Using Recurrent Neural
@@ -699,7 +678,6 @@
   booktitle: Proceedings of the 58th Annual Meeting of the Association for Computational
     Linguistics
   doi: '1910.14254'
-  formattedauthor: Schuster, S., Chen, Y., and Degen, J
   keywords: computational pragmatics; scalar implicature; neural networks
   pages: 5387--5403
   title: Harnessing the linguistic signal to predict scalar inferences
@@ -734,7 +712,6 @@
     \ against accounts that cast adaptation as simple low-level priming."
   author: Schuster, Sebastian and Degen, Judith
   doi: 10.1016/j.cognition.2020.104285
-  formattedauthor: Schuster, S,. and Degen, J
   journal: Cognition
   keywords: adaptation; language comprehension; experimental pragmatics; Bayesian
     cognitive modeling; uncertainty expressions
@@ -768,7 +745,6 @@
     evaluative adjectives are ambiguous.'
   author: Tonhauser, Judith and de Marneffe, Marie-Catherine and Degen, Judith
   doi: 10.5334/gjgl.701
-  formattedauthor: Tonhauser, J., de Marneffe, M., and Degen, J
   journal: 'Glossa: a journal of general linguistics'
   number: '1'
   pages: '87'
@@ -792,7 +768,6 @@
     \ and Frank, 2016)."
   author: Waldon, Brandon
   booktitle: Proceedings of Probability and Meaning (PaM2020)
-  formattedauthor: Waldon, B
   pages: 34--40
   title: 'Linguistic interpretation as inference under argument system uncertainty:
     the case of epistemic must'
@@ -817,7 +792,6 @@
     \ competence."
   author: Waldon, Brandon and Degen, Judith
   booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
-  formattedauthor: Waldon, B., and Degen, J
   keywords: experimental pragmatics; implicature; priming; adaptation; computational
     pragmatics
   title: Symmetric alternatives and semantic uncertainty modulate scalar inference
@@ -838,7 +812,6 @@
   author: Waldon, Brandon and Degen, Judith
   booktitle: Proceedings of the Society for Computation in Linguistics
   doi: 10.7275/sg32-aq30
-  formattedauthor: Waldon, B., and Degen, J
   keywords: psycholinguistics; truth value judgement task; pragmatics; linking function
   number: '1'
   pages: 10--19
@@ -863,9 +836,8 @@
     \ using WebGazer.js. The results pro- vide support for the Referential Belief\
     \ link and cautious opti- mism for the prospect of conducting web-based eye-tracking.\
     \ We discuss limitations on both fronts."
-  author: Degen, Judith and Kursat, Leyla and Leigh, Daisy
+  author: 'Degen, Judith and Kursat, Leyla and Leigh, Daisy '
   booktitle: Proceedings of the 43nd Annual Meeting of the Cognitive Science Society
-  formattedauthor: Degen, J., Kursat, L.,and Leigh, D
   journal: Proceedings of the Annual Meeting of the Cognitive Science Society
   keywords: psycholinguistics, experimental pragmatics, scalar implicature, linking
     functions, visual world, eye-tracking
@@ -886,7 +858,6 @@
     \ of projection with cognitive theories of language understanding."
   author: Degen, Judith and Tonhauser, Judith
   doi: https://doi.org/10.1162/opmi_a_00042
-  formattedauthor: Degen, J., and Tonhauser, J
   journal: Open Mind
   keywords: experimental semantics, experimental pragmatics, projection
   pages: 59-70
@@ -932,7 +903,6 @@
   archiveprefix: psyarxiv
   author: Hahn, Michael and Degen, Judith and Futrell, Richard
   doi: 10.31234/osf.io/nu4qz
-  formattedauthor: Hahn, M., Degen, J., and Futrell, R
   github: https://github.com/m-hahn/memory-surprisal
   issue: '4'
   journal: Psychological Review
@@ -967,7 +937,6 @@
   author: Kursat, Leyla and Degen, Judith
   booktitle: Proceedings of the Linguistic Society of America
   doi: https://doi.org/10.3765/plsa.v6i1.5003
-  formattedauthor: Kursat, L., and Degen, J
   number: '1'
   pages: 676--688
   title: Perceptual difficulty differences predict asymmetry in redundant modification
@@ -990,7 +959,6 @@
   author: Li, Elissa and Schuster, Sebastian and Degen, Judith
   booktitle: Proceedings of the Society for Computation in Linguistics
   doi: https://doi.org/10.7275/xr01-a852
-  formattedauthor: Li, E., Schuster, S., and Degen, J
   title: Predicting scalar inferences from ``or'' to ``not both'' using neural sentence
     encoders
   volume: '4'
@@ -1007,7 +975,6 @@
     of adaptation.
   author: Lu, Jiayi and Lassiter, Dan and Degen, Judith
   booktitle: Proceedings of the 42nd Annual Meeting of the Cognitive Science Society
-  formattedauthor: Lu, J., Lassiter, D., and Degen, J
   journal: Proceedings of the Annual Meeting of the Cognitive Science Society
   title: Syntactic satiation is driven by speaker-specific adaptation
   volume: '43'
@@ -1042,7 +1009,6 @@
   author: Waldon, Brandon
   booktitle: Proceedings of the 56th Meeting of the Chicago Linguistic Society (CLS
     56)
-  formattedauthor: Waldon, B
   title: 'Epistemic must and might: evidence that argumentation is semantically encoded'
   website: https://www.ingentaconnect.com/contentone/cls/pcls/2021/00000056/00000001/art00035
   year: '2022'
@@ -1062,7 +1028,6 @@
   author: Waldon, Brandon and Degen, Judith
   booktitle: Proceedings of the Society for Computation in Linguistics
   doi: https://doi.org/10.7275/vsfn-t057
-  formattedauthor: Waldon, B., and Degen, J
   title: Modeling cross-linguistic production of referring expressions
   volume: '4'
   website: https://scholarworks.umass.edu/scil/vol4/iss1/20/
@@ -1085,7 +1050,6 @@
     \ speaker's goal, alongside (or subsuming the effect of) linguistic cues."
   author: Moyer, Morgan and Degen, Judith
   booktitle: Proceedings of the Annual Meeting of the Cognitive Science Society
-  formattedauthor: Moyer, M., and Degen, J
   title: Who thinks wh-questions are exhaustive?
   volume: '43'
   website: https://escholarship.org/uc/item/2gb4k3gt
@@ -1109,7 +1073,6 @@
     \ in research using the visual world paradigm."
   author: Degen, Judith and Pophristic, Stefan
   booktitle: Proceedings of the 44th Annual Meeting of the Cognitive Science Society
-  formattedauthor: Degen, J., and Pophristic, S
   keywords: psycholinguistics; experimental pragmatics; scalar implicature; linking
     hypothesis; visual world paradigm; eye-tracking
   title: The role of production expectations in visual world paradigm linking hypotheses
@@ -1120,7 +1083,6 @@
   author: Degen, Judith and Tonhauser, Judith
   booktitle: The Open Handbook of Linguistic Data Management
   doi: 10.7551/mitpress/12200.003.0052
-  formattedauthor: Degen, J., and Tonhauser, J
   isbn: '9780262366076'
   month: '01'
   publisher: The MIT Press
@@ -1146,7 +1108,6 @@
     language processing. '
   author: Hahn, Michael and Mathew, Rebecca and Degen, Judith
   doi: 10.1162/opmi_a_00051
-  formattedauthor: Hahn, M., Mathew, R., and Degen, J
   issn: 2470-2986
   journal: Open Mind
   pages: 208-232
@@ -1175,7 +1136,6 @@
     in the production of redundant modifiers.'
   author: Kursat, Leyla and Waldon, Brandon and Ergin, Rabia and Degen, Judith
   booktitle: Proceedings of the 44th Annual Meeting of the Cognitive Science Society
-  formattedauthor: Kursat, L., Waldon, B., Ergin, R., and Degen, J
   keywords: experimental pragmatics; redundancy; village sign language; Rational Speech
     Act; Bayesian Data Analysis
   title: Evaluating models of referring expression production on an emerging sign
@@ -1196,7 +1156,6 @@
     used for further exploration of the representational targets of satiation.'
   author: Lu, Jiayi and Wright, Nicholas and Degen, Judith
   booktitle: Proceedings of the 44th Annual Meeting of the Cognitive Science Society
-  formattedauthor: Lu, J., Wright, N., and Degen, J
   keywords: psycholinguistics; island effect; adaptation; satiation; acceptability
     judgments
   title: Satiation effects generalize across island types
@@ -1219,7 +1178,6 @@
     \ social progressiveness, leading to their use by Democrats and avoidance by Republicans."
   author: Papineau, Brandon and Podesva, Robert J. and Degen, Judith
   booktitle: Proceedings of the 44th Annual Meeting of the Cognitive Science Society
-  formattedauthor: Papineau, B., Podesva, R.J., and Degen, J
   keywords: language and gender; language processing; language production; language
     and politics; morphology
   title: "\u2018Sally the Congressperson\u2019: The Role of Individual Ideology on\
@@ -1248,7 +1206,6 @@
     predicates than factivity.
   author: Degen, Judith and Tonhauser, Judith
   doi: doi:10.1353/lan.2022.0015
-  formattedauthor: Degen, J., and Tonhauser, J
   issue: '3'
   journal: Language
   title: Are there factive predicates? An empirical investigation
@@ -1273,7 +1230,6 @@
     the boundedness of cognition, and the incremental and compositional nature of
     language.'
   author: Degen, Judith
-  formattedauthor: Degen, J
   journal: Annual Review of Linguistics
   pages: 519-540
   title: The Rational Speech Act Framework
@@ -1281,7 +1237,7 @@
   website: https://www.annualreviews.org/doi/abs/10.1146/annurev-linguistics-031220-010811
   year: '2023'
 - ENTRYTYPE: inproceedings
-  ID: 2023HuEtAl
+  ID: HuEtAl2023
   abstract: "Scalar inferences (SI) are a signature example of how humans interpret\
     \ language based on unspoken alternatives. While empirical studies have demonstrated\
     \ that human SI rates are highly variable \u2013 both within instances of a single\
@@ -1299,100 +1255,6 @@
     \ over alternatives, and these expectations operate at the level of concepts."
   author: Hu, Jennifer and Levy, Roger and Degen, Judith and Schuster, Sebastian
   booktitle: Transactions of the Association for Computational Linguistics
-  formattedauthor: Hu, J., Levy, R., Degen, J., and Schuster, S
   title: Expectations over unspoken alternatives predict pragmatic inferences
-  website: https://arxiv.org/abs/2304.04758
-  year: to appear
-- ENTRYTYPE: inproceedings
-  ID: 2023YuEtAl
-  abstract: "The world\u2019s languages differ in how they order adjectives and nouns\
-    \ relative to each other. We ask whether cross-linguistic variation and systematicity\
-    \ in adjective-noun order can be explained by the iterated pressure for pragmatic\
-    \ referential communication. To this end, we apply the Rational Speech Act framework\
-    \ with an an iterated learning mechanism to study how cooperative pressures may\
-    \ shape typological regularities in referential communication. First, we show\
-    \ that the less informative adjectives are relative to nouns, the more likely\
-    \ they are to occur post-nominally. This is the case when informativeness is manipulated\
-    \ via the composition of the lexical space (i.e., changing the relative number\
-    \ of adjectives vs. nouns that are available for reference), and via the inherent\
-    \ referential utility of adjectives vs. nouns. Secondly, we show that under the\
-    \ assumption that nouns are on average more informative than adjectives, the model\
-    \ predicts a cross-linguistic distribution of ordering preferences that qualitatively\
-    \ resembles the empirical one, with these biases becoming further entrenched with\
-    \ iterated language use. Taken together, these results suggest a possible pathway\
-    \ for syntactic preferences to be calcified over time as the result of pragmatic\
-    \ communicative pressures on language."
-  author: Yu, Dhara and Waldon, Brandon, and Degen, Judith
-  booktitle: Proceedings of the 45th Annual Conference of the Cognitive Science Society
-  formattedauthor: Yu, D., Waldon, B., and Degen, J
-  title: The cross-linguistic order of adjectives and nouns may be the result of iterated
-    pragmatic pressures on referential communication
-  website: https://psyarxiv.com/7q5j4/
-  year: to appear
-- ENTRYTYPE: inproceedings
-  ID: 2023WaldonEtAl
-  abstract: 'We present a large-scale conceptual replication of an experiment that
-    provided evidence of false consensus biases in legal interpretation: when reading
-    a legal contract, individuals tend to over-estimate the extent to which others
-    would agree with their interpretation of that contract (Solan, Rosenblatt, & Osherson,
-    2008). Our results are consistent with this previous finding. We also observe
-    substantial unexplained item-level variation in the extent to which individuals
-    agree on contract interpretation, as well as unexplained variation in the extent
-    towhich the false consensus bias holds across different contexts.In a first step
-    towards understanding the source(s) of this variability,we show that a state-of-the-art
-    large language model (LLM) with zero-shot prompting does not robustly predict
-    the degree to which interpreters will exhibit consensus in a given context. However,
-    performance improves when the model is exposed to data of the form collected in
-    our experiment, suggesting a path forward for modeling and predicting variabilityin
-    the interpretation of legally-relevant natural language.'
-  author: Waldon, Brandon and Brodsky, Madigan and Ma, Megan and Degen, Judith
-  booktitle: Proceedings of the 45th Annual Conference of the Cognitive Science Society
-  formattedauthor: Waldon, B., Brodsky, M., Ma, M., and Degen, J
-  title: Predicting consensus in legal document interpretation
-  website: papers/2023WaldonEtAl.pdf
-  year: to appear
-- ENTRYTYPE: inproceedings
-  ID: 2023PanDegen
-  abstract: "Projection inferences are inferences about speaker commitment to a content\
-    \ embedded under an entailment-canceling operator, for example in polar interrogatives\
-    \ with clauseembedding predicates (Does John know that Julian dances Salsa?).\
-    \ Speaker commitment to embedded content is modulated by multiple factors, including\
-    \ the predicate, interlocutors\u2019prior beliefs about the content, and its at-issueness.\
-    \ We propose an RSA model of projection inferences in such environments. Crucially,\
-    \ we take the interpretive procedure to involve inferring a speaker\u2019s and\
-    \ attitude holder\u2019s belief in the content. In a behavioral study, we investigate\
-    \ inferred beliefs about contents embedded under the predicates \u201Cthink\u201D\
-    \ and \u201Cknow\u201D that listeners ascribe to the speaker and a potential attitude\
-    \ holder. We use the empirical data to parametrize themodel. The resulting predictions\
-    \ mirror some, but not all, ofthe qualitative empirical patterns. This is a first\
-    \ step towards a systematic analysis of projection inferences using probabilistic\
-    \ pragmatic models."
-  author: Pan, Dingyi and Degen, Judith
-  booktitle: Proceedings of the 45th Annual Conference of the Cognitive Science Society
-  formattedauthor: Pan, D., and Degen, J
-  title: Towards a computational account of projection inferences in polar interrogatives
-    with clause-embedding predicates
-  website: papers/2023PanDegen.pdf
-  year: to appear
-- ENTRYTYPE: inproceedings
-  ID: 2023FishmanDegen
-  abstract: "Using evidential expressions to indicate one\u2019s source of information\
-    \ for an utterance tends to convey uncertainty on the speaker\u2019s part. Previous\
-    \ accounts of this uncertainty inference attribute it to either extralinguistic\
-    \ reasoning about evidence directness, or to pragmatic reasoning about alternative\
-    \ utterances. Here we present a novel hybrid account, and introduce a set of utterances\
-    \ which allows us to tease apart the three accounts\u2019 predictions. We test\
-    \ these predictions in two studies by manipulating the directness of evidence\
-    \ indicated by an evidential expression. Exp. 1 shows that listeners infer more\
-    \ uncertainty with extreme values of directness. Exp. 2 shows that speakers are\
-    \ more likely to indicate evidence in contexts where the evidence is unreliable.\
-    \ We argue that these findings support an account which involves both extralinguistic\
-    \ and pragmatic reasoning, and develop a formal implementation of such an account\
-    \ within the Rational Speech Act framework."
-  author: Fishman, Alon and Degen, Judith
-  booktitle: Proceedings of the 45th Annual Conference of the Cognitive Science Society
-  formattedauthor: Fishman, F., and Degen, J
-  title: 'Evidential uncertainty involves both pragmatic and extralinguistic reasoning:
-    a computational account'
-  website: papers/2023FishmanDegen.pdf
+  website: papers/2023HuEtAl.pdf
   year: to appear
