@@ -34,9 +34,9 @@ See [Linking functions](#linking-functions) section below for additional insight
 *Note: Judith Degen's dissertation (Degen 2013) already contains much of the work and/or ideas reported in Degen 2015, Degen & Tanenhaus 2015/2016, and Kursat & Degen 2020. Degen & Tanenhaus 2011 is superseded by Degen & Tanenhaus 2015 and Degen & Tanenhaus 2016.*
 
 
-### Projection inferences
-
 <img align="right" width="600" src="images/research/predicates.jpeg" alt="projection">
+
+### Projection inferences
 
 In a long-standing collaboration with [Judith Tonhauser](https://judith-tonhauser.github.io/), we investigate the interplay of lexical meaning, context, and world knowledge in the computation of projection inferences (e.g., the inference that Alex is committed to Julian dancing salsa if they ask a polar interrogative like "Does Sam know that Julian dances salsa?"). We have found that projection varies as a function of the QUD ([Tonhauser et al. 2018](https://alpslab.stanford.edu/publications.html#2018TonhauserBeaverEtAl), [2020](https://alpslab.stanford.edu/publications.html#2020TonhauserDeMarneffeEtAl)) and prior beliefs about truth of content ([Degen & Tonhauser 2021](https://alpslab.stanford.edu/publications.html#2021DegenTonhauser)). One main finding for clause-embedding predicates in particular has been that neither projection nor projection and entailment (two standard diagnostics of factivity) categorically distinguish factive predicates from others ([Degen & Tonhauser 2022](https://alpslab.stanford.edu/publications.html#DegenTonhauser2022B)). We are currently in the process of developing an account of projection couched in the Rational Speech Act framework, a very first step towards which can be found in [Pan & Degen 2023](https://alpslab.stanford.edu/publications.html#2023PanDegen). 
 
