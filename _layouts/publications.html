@@ -20,11 +20,11 @@ layout: default
 
       <!-- If there is a pending article, include the header -->
       {%- if  outputYear == "to appear"-%}
-          <h2> Pending </h2>
+          <h2 id="pub-pending"> Pending </h2>
 
           {%- break -%}
       {%- elsif outputYear == "submitted" -%}
-        <h2> Pending </h2>
+        <h2  id="pub-pending"> Pending </h2>
         {%- break -%}
       {%- endif -%}
     {%- endfor -%}
@@ -87,7 +87,7 @@ layout: default
 
     <!-- Loop through each year -->
     {% for year in (2011..currentYear) reversed %}
-      <h2>{{year}}</h2>
+      <h2  id="{{year}}">{{year}}</h2>
 
       <!-- Iterate through each bibtex entry -->
       {%- for output in allOutput -%}
