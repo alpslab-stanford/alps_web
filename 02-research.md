@@ -4,7 +4,7 @@ title: Research
 permalink: research.html
 ---
 
-## Implicature and pragmatic inference
+# Implicature and pragmatic inference
 
 We take a strongly contextualist approach to pragmatics and have found it useful to implement hypotheses about the interaction of literal meaning, world knowledge, and context in Bayesian or other probabilistic pragmatics frameworks, like the Rational Speech Act framework ([Degen 2023](https://alpslab.stanford.edu/publications.html#2023Degen)).
 
@@ -35,7 +35,7 @@ See [Linking functions](#linking-functions) section below for additional insight
 
 In a long-standing collaboration with [Judith Tonhauser](https://judith-tonhauser.github.io/), we investigate the interplay of lexical meaning, context, and world knowledge in the computation of projection inferences (e.g., the inference that Alex is committed to Julian dancing salsa if they ask a polar interrogative like "Does Sam know that Julian dances salsa?"). We have found that projection varies as a function of the QUD ([Tonhauser et al. 2018](https://alpslab.stanford.edu/publications.html#2018TonhauserBeaverEtAl), [2020](https://alpslab.stanford.edu/publications.html#2020TonhauserDeMarneffeEtAl)) and prior beliefs about truth of content ([Degen & Tonhauser 2021](https://alpslab.stanford.edu/publications.html#2021DegenTonhauser)). One main finding for clause-embedding predicates in particular has been that neither projection nor projection and entailment (two standard diagnostics of factivity) categorically distinguish factive predicates from others ([Degen & Tonhauser 2022](https://alpslab.stanford.edu/publications.html#DegenTonhauser2022B)). We are currently in the process of developing an account of projection couched in the Rational Speech Act framework, a very first step towards which can be found in [Pan & Degen 2023](https://alpslab.stanford.edu/publications.html#2023PanDegen). 
 
-## Reference
+# Reference
 
 What determines the choice of definite referring expression from among many possible alternatives (e.g., "the car", "the red car", "the big red car") in production, and what are the predictive referential inferences that listeners derive from the observation of partial such expressions (e.g., "the big...") in interpretation? 
 
@@ -51,7 +51,7 @@ To explain all of these effects jointly, we propose a Bayesian account of referr
 
 Instructions with partial referring expressions, as in "Click on the red..." have been shown to give rise to contrastive inferences, a type of predictive pragmatic inference whereby the listener infers that the likely target referent is one that shares its type with another (non-red) object. We find that listeners derive contrastive inferences in the color domain to varying degrees, and they do so more readily, the more the use of the color term can only be ascribed to there being a color contrast between objects of the same type. We provide an RSA account of this interpretive variability that highlights the importance of listeners reasoning about a generative speaker model incrementally ([Kreiss & Degen 2020](https://alpslab.stanford.edu/publications.html#2020KreissDegen), [Kreiss & Degen in prep.](https://alpslab.stanford.edu/publications.html)). Future directions include testing the account on domains other than color, and documenting predictive pragmatic inferences in languages with different syntactic properties than English.
 
-## Adaptation and variability
+# Adaptation and variability
 
 A crucial component common to the interpretation accounts applied to the phenomena described above is that listeners make use of a generative model of the speaker -- how likely would a speaker have been to produce utterance *u* (compared to alternatives) if they had intended to communicate meaning *m* (compared to alternatives)? In order to build such a generative model, listeners must track and adapt to the statistics of the input -- that is, what the form-to-meaning mappings are that speakers generally assume, as well as any speaker-specific idiosyncracies that might be general enough to have predictive value in online processing or interpretation. Which aspects of the statistics of the input do listeners track, and what are the consequences for processing and interpretation?
 
@@ -72,7 +72,7 @@ Syntactically degraded sentences (e.g., "Who does Alex wonder whether Sam likes?
 In other work, we show that children also appear to use syntactic adaptation to bootstrap the meanings of novel words ([Swanson et al. under review](https://alpslab.stanford.edu/publications.html#SwansonEtAl_submitted)).
 
 
-## Ordering phenomena
+# Ordering phenomena
 
 We proposed processing efficiency and communicative efficiency based accounts of a variety of cross-linguistic ordering phenomena. These include: 
 
@@ -81,12 +81,12 @@ We proposed processing efficiency and communicative efficiency based accounts of
 3. **The order of nouns and adjectives** ([Yu et al. 2023](https://alpslab.stanford.edu/publications.html#2023YuEtAl)), where we show that the preference for languages to have post-nominal adjectives may be the result of iterated pressures for pragmatic referential communication, under the assumption that production planning proceeds incrementally and adjectives are on average noisier than nouns.
 
 
-## Communicating (about) uncertainty
+# Communicating (about) uncertainty
 
 Speakers have many ways of indicating their evidence for and (un)certainty about a proposition *p* they assert. How do speakers decide between evidential devices and markers of uncertainty? How do listeners integrate that information? We show that in both English and German, listeners attribute a stronger belief in *p* to speakers than they end up holding themselves, regardless of whether bare utterances (e.g., "It's raining") or alternatives (e.g., "It must be raining," "It's probably raining") are used ([Degen et al. 2019](https://alpslab.stanford.edu/publications.html#2019DegenTrotzkeEtAl)). We develop a hybrid account of the interpretation and use of perception verbs ("The dress looks blue") within the RSA framework that derives estimates of uncertainty about *p* to joint reasoning about evidence directness and alternative utterances ([Fishman & Degen 2023](https://alpslab.stanford.edu/publications.html#2023FishmanDegen)). Future directions include further testing the account, extending it to additional existential devices, and explaining belief asymmetries between listener and speaker.
 
 
-## Linking functions
+# Linking functions
 
 Experimental pragmatics (and psycholinguistics more generally) is in dire need of explicit linking functions for all of the most commonly used experimental measures, including truth-value judgments, visual world eye-tracking, acceptability judgments, etc. We believe that providing such linking functions is not a mere methodological task, but contributes to the theoretical understanding of the phenomena under consideration.
 
