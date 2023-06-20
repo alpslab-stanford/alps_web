@@ -15,7 +15,7 @@ Using a combination of experimental methods, corpus analyses, and Bayesian compu
 The **probability** of deriving a scalar inference is modulated by:
 - lexical, syntactic, and discourse features of the linguistic context ([Degen 2015](https://alpslab.stanford.edu/publications.html#2015)), which neural language models based on contextual word embeddings can learn from data and use to predict inference strength judgments ([Schuster et al. 2020](https://alpslab.stanford.edu/publications.html), [Li et al. 2021](https://alpslab.stanford.edu/publications.html));
 - the presence of alternatives ([Degen & Tanenhaus 2015](https://alpslab.stanford.edu/publications.html), [Waldon & Degen 2020a](https://alpslab.stanford.edu/publications.html));
-- the Question Under Discussion (QUD, [Degen & Goodman 2014](https://alpslab.stanford.edu/publications.html), [Kursat & Degen 2020](https://alpslab.stanford.edu/publications.html));
+- the Question Under Discussion (QUD, [Degen & Goodman 2014](https://alpslab.stanford.edu/publications.html#2014DegenGoodman), [Kursat & Degen 2020](https://alpslab.stanford.edu/publications.html));
 - prior beliefs about the probability of the stronger alternative being true ([Degen et al. 2015](https://alpslab.stanford.edu/publications.html)).
 
 We find that while we sometimes replicate that scalar inferences incur a processing cost, the **speed** with which scalar inferences are processed is modulated by:
