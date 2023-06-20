@@ -13,7 +13,7 @@ We take a strongly contextualist approach to pragmatics and have found it useful
 Using a combination of experimental methods, corpus analyses, and Bayesian computational modeling, we find that scalar inferences (i.e., interpreting a sentence like "Alex ate some of the cookies" to mean they didn't eat all of them) are strongly context-dependent. 
 
 The **probability** of deriving a scalar inference is modulated by:
-- lexical, syntactic, or discourse features of the linguistic context (Degen 2015), which language models based on contextual word embeddings can learn from data and use to predict inference strength judgments (Schuster et al. 2020, Li et al. 2021);
+- lexical, syntactic, or discourse features of the linguistic context ([Degen 2015](https://alpslab.stanford.edu/publications.html#2015)), which language models based on contextual word embeddings can learn from data and use to predict inference strength judgments (Schuster et al. 2020, Li et al. 2021);
 - the presence of alternatives (Degen & Tanenhaus 2015, Waldon & Degen 2020a);
 - the Question Under Discussion (QUD, Degen & Goodman 2014, Kursat & Degen 2020);
 - prior beliefs about the probability of the stronger alternative being true (Degen et al. 2015).
