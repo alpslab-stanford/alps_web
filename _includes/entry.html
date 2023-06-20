@@ -15,7 +15,7 @@ This includes links to the paper and a button which will show the bibtex entry
 {%- endif -%}
 
 <!-- Print the publication -->
-<p>
+<p id="{{ output.ID }}">
   {%- if output.website != "" -%}
     <a href="{{ output.website }}">{{ output.title }}</a>.
   {%- else -%}
