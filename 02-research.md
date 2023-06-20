@@ -12,13 +12,14 @@ We take a strongly contextualist approach to pragmatics and have found it useful
 
 Using a combination of experimental methods, corpus analyses, and Bayesian computational modeling, we find that scalar inferences (i.e., interpreting a sentence like "Alex ate some of the cookies" to mean they didn't eat all of them) are strongly context-dependent. 
 
+<img align="right" src="images/research/gumballs.jpeg" alt="gumballs">
+
 The **probability** of deriving a scalar inference is modulated by:
 - lexical, syntactic, and discourse features of the linguistic context ([Degen 2015](https://alpslab.stanford.edu/publications.html#2015Degen)), which neural language models based on contextual word embeddings can learn from data and use to predict inference strength judgments ([Schuster et al. 2020](https://alpslab.stanford.edu/publications.html#2020SchusterChenEtAl), [Li et al. 2021](https://alpslab.stanford.edu/publications.html#2021LiSchusterEtAl));
 - the presence of alternatives ([Degen & Tanenhaus 2015](https://alpslab.stanford.edu/publications.html#2015DegenTanenhaus), [Waldon & Degen 2020b](https://alpslab.stanford.edu/publications.html#2020WaldonDegenB));
 - the Question Under Discussion (QUD, [Degen & Goodman 2014](https://alpslab.stanford.edu/publications.html#2014DegenGoodman), [Kursat & Degen 2020](https://alpslab.stanford.edu/publications.html#2020KursatDegen));
 - prior beliefs about the probability of the stronger alternative being true ([Degen et al. 2015](https://alpslab.stanford.edu/publications.html#2015DegenTesslerEtAl)).
 
-<img align="right" src="images/research/gumballs.jpeg" alt="gumballs">
 
 We find that while we sometimes replicate that scalar inferences incur a processing cost, the **speed** with which scalar inferences are processed is modulated by:
 - the presence of alternatives in a visual world eye-tracking paradigm ([Degen & Tanenhaus 2016](https://alpslab.stanford.edu/publications.html#2016DegenTanenhaus));
