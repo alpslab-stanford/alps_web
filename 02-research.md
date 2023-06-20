@@ -18,6 +18,8 @@ The **probability** of deriving a scalar inference is modulated by:
 - the Question Under Discussion (QUD, [Degen & Goodman 2014](https://alpslab.stanford.edu/publications.html#2014DegenGoodman), [Kursat & Degen 2020](https://alpslab.stanford.edu/publications.html#2020KursatDegen));
 - prior beliefs about the probability of the stronger alternative being true ([Degen et al. 2015](https://alpslab.stanford.edu/publications.html#2015DegenTesslerEtAl)).
 
+<img align="right" src="images/research/gumballs.jpeg" alt="gumballs">
+
 We find that while we sometimes replicate that scalar inferences incur a processing cost, the **speed** with which scalar inferences are processed is modulated by:
 - the presence of alternatives in a visual world eye-tracking paradigm ([Degen & Tanenhaus 2016](https://alpslab.stanford.edu/publications.html#2016DegenTanenhaus));
 - the QUD in a truth-value judgment paradigm ([Kursat & Degen 2020](https://alpslab.stanford.edu/publications.html#2020KursatDegen)). In this paper, we also find that literal responses are slower than pragmatic responses when produced by participants who have an overall preference to respond pragmatically. 
