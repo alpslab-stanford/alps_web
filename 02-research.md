@@ -26,7 +26,7 @@ This body of work has led us to propose a **constraint-based account** of scalar
 
 An important component of constraint-based and RSA accounts of scalar inferences is that listeners are assumed to reason about how likely a speaker would have been to produce the weaker and stronger alternative. We recently used neural language models to approximate human predictive distributions, finding that SI rates both within scales and across scales are captured by the expectedness of the stronger alternative (Hu et al. 2023). Crucially, however, expectedness robustly predicts cross-scale variation only under a meaning-based computation of alternatives. Our results suggest that pragmatic inferences arise as the result of listeners' context-driven and meaning-based production expectations over alternatives.
 
-See [Linking functions](##linking-functions) section below for additional insights. 
+See [Linking functions](#linking-functions) section below for additional insights. 
 
 *Note: Judith Degen's dissertation (Degen 2013) already contains much of the work and/or ideas reported in Degen 2015, Degen & Tanenhaus 2015/2016, and Kursat & Degen 2020. Degen & Tanenhaus 2011 is superseded by Degen & Tanenhaus 2015 and Degen & Tanenhaus 2016.*
 
