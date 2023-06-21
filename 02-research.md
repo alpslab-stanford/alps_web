@@ -31,7 +31,7 @@ An important component of constraint-based and RSA accounts of scalar inferences
 
 See [Linking functions](#linking-functions) section below for additional insights. 
 
-*Note: Judith Degen's dissertation (Degen 2013) already contains much of the work and/or ideas reported in Degen 2015, Degen & Tanenhaus 2015/2016, and Kursat & Degen 2020. Degen & Tanenhaus 2011 is superseded by Degen & Tanenhaus 2015 and Degen & Tanenhaus 2016.*
+*Note: Judith Degen's dissertation ([Degen 2013](https://alpslab.stanford.edu/publications.html#2013Degen)) already contains much of the work and/or ideas reported in Degen 2015, Degen & Tanenhaus 2015/2016, and Kursat & Degen 2020. Degen & Tanenhaus 2011 is superseded by Degen & Tanenhaus 2015 and Degen & Tanenhaus 2016.*
 
 ### Projection inferences
 
