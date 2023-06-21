@@ -51,9 +51,9 @@ When a property is contextually redundant for establishing reference (e.g., "red
 
 To explain all of these effects jointly, we propose a Bayesian account of referring expression production that assumes that speakers rationally trade off the contextual informativeness and the cost of referring expressions ([Degen et al. 2020](https://alpslab.stanford.edu/publications.html#2020DegenHawkinsEtAl)). Crucially, we assume that the computation of contextual informativeness is based on continuous semantic values rather than standard Boolean truth conditions, which allows for capturing the intuition that colors are (ceteris paribus) more reliable for communication than size. Preliminary evidence shows that this notion of reliability is at least partly the result of the difficulty associated with establishing whether a property holds of an object ([Kursat & Degen 2021](https://alpslab.stanford.edu/publications.html#2021KursatDegen)). We have recently extended the account to allow for incremental (word-by-word) computation of utterance utility ([Waldon & Degen 2021](https://alpslab.stanford.edu/publications.html#2021WaldonDegen)). However, we have so far only found limited cross-linguistic evidence for the role of incrementality. For instance, we replicate the standard color/size asymmetry in redundant modification in CTSL, an emerging village sign language in Turkey ([Kursat et al. 2022](https://alpslab.stanford.edu/publications.html#2022KursatWaldonEtAl)). In ongoing work we find somewhat less redundant modification in English and French than in Spanish, with most effects still explained by the continuous semantics ([Waldon et al. in prep](https://alpslab.stanford.edu/publications.html)). Important future directions include rigorous model comparison between implementations of different notions of incrementality, fueled by cross-linguistic data from languages with different syntactic properties than English, and which require different amounts of lookahead in noun phrase planning.
 
-<img align="right" width="360" src="images/research/contrastive.png" alt="contrastive inferences">
-
 *Note: Graf et al. 2016 is supserseded by Degen et al. 2020.*
+
+<img align="right" width="360" src="images/research/contrastive.png" alt="contrastive inferences">
 
 ### Interpretation of partial referring expressions
 
