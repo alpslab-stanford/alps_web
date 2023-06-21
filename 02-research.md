@@ -4,6 +4,8 @@ title: Research
 permalink: research.html
 ---
 
+<div class="boxed">
+
 # Implicature and pragmatic inference
 
 We take a strongly contextualist approach to pragmatics and have found it useful to implement hypotheses about the interaction of literal meaning, world knowledge, and context in Bayesian or other probabilistic pragmatics frameworks, like the Rational Speech Act framework ([Degen 2023](https://alpslab.stanford.edu/publications.html#2023Degen)).
@@ -32,6 +34,8 @@ An important component of constraint-based and RSA accounts of scalar inferences
 See [Linking functions](#linking-functions) section below for additional insights. 
 
 *Note: Judith Degen's dissertation ([Degen 2013](https://alpslab.stanford.edu/publications.html#2013Degen)) already contains much of the work and/or ideas reported in Degen 2015, Degen & Tanenhaus 2015/2016, and Kursat & Degen 2020. Degen & Tanenhaus 2011 is superseded by Degen & Tanenhaus 2015 and Degen & Tanenhaus 2016.*
+
+</div>
 
 <img align="right" width="600" src="images/research/predicates.jpeg" alt="projection">
 
