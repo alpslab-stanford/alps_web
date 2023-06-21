@@ -10,9 +10,9 @@ We take a strongly contextualist approach to pragmatics and have found it useful
 
 ### Scalar inferences
 
-<img align="right" src="images/research/gumballs.jpeg" alt="gumballs">
-
 Using a combination of experimental methods, corpus analyses, and Bayesian computational modeling, we find that scalar inferences (i.e., interpreting a sentence like "Alex ate some of the cookies" to mean they didn't eat all of them) are strongly context-dependent. 
+
+<img align="left" src="images/research/gumballs.jpeg" alt="gumballs">
 
 The **probability** of deriving a scalar inference is modulated by:
 - lexical, syntactic, and discourse features of the linguistic context ([Degen 2015](https://alpslab.stanford.edu/publications.html#2015Degen)), which neural language models based on contextual word embeddings can learn from data and use to predict inference strength judgments ([Schuster et al. 2020](https://alpslab.stanford.edu/publications.html#2020SchusterChenEtAl), [Li et al. 2021](https://alpslab.stanford.edu/publications.html#2021LiSchusterEtAl));
@@ -48,7 +48,7 @@ What determines the choice of definite referring expression from among many poss
 
 When a property is contextually redundant for establishing reference (e.g., "red" in a context where a target object is big and red, and there are other red but no other big objects), we replicate for English the result that participants are more likely to redundantly mention color than size or material, that redundant modifier use is more likely in more visually variable scenes, and that atypical object colors are more likely to be mentioned redundantly ([Degen et al. 2020](https://alpslab.stanford.edu/publications.html#2020DegenHawkinsEtAl)). 
 
-<img align="right" src="images/research/redundant.jpeg" alt="redundant referring expressions">
+<img align="left" src="images/research/redundant.jpeg" alt="redundant referring expressions">
 
 To explain all of these effects jointly, we propose a Bayesian account of referring expression production that assumes that speakers rationally trade off the contextual informativeness and the cost of referring expressions ([Degen et al. 2020](https://alpslab.stanford.edu/publications.html#2020DegenHawkinsEtAl)). Crucially, we assume that the computation of contextual informativeness is based on continuous semantic values rather than standard Boolean truth conditions, which allows for capturing the intuition that colors are (ceteris paribus) more reliable for communication than size. Preliminary evidence shows that this notion of reliability is at least partly the result of the difficulty associated with establishing whether a property holds of an object ([Kursat & Degen 2021](https://alpslab.stanford.edu/publications.html#2021KursatDegen)). We have recently extended the account to allow for incremental (word-by-word) computation of utterance utility ([Waldon & Degen 2021](https://alpslab.stanford.edu/publications.html#2021WaldonDegen)). However, we have so far only found limited cross-linguistic evidence for the role of incrementality. For instance, we replicate the standard color/size asymmetry in redundant modification in CTSL, an emerging village sign language in Turkey ([Kursat et al. 2022](https://alpslab.stanford.edu/publications.html#2022KursatWaldonEtAl)). In ongoing work we find somewhat less redundant modification in English and French than in Spanish, with most effects still explained by the continuous semantics ([Waldon et al. in prep](https://alpslab.stanford.edu/publications.html)). Important future directions include rigorous model comparison between implementations of different notions of incrementality, fueled by cross-linguistic data from languages with different syntactic properties than English, and which require different amounts of lookahead in noun phrase planning.
 
@@ -78,9 +78,10 @@ Future directions include accounting for the tension between interpreters' remar
 
 *Note: Yildirim et al. 2013 is superseded by Yildirim et al. 2016.*
 
-### Syntactic adaptation
 
 <img align="right" width="500" src="images/research/satiation.png" alt="satiation">
+
+### Syntactic adaptation
 
 Syntactically degraded sentences (e.g., "Who does Alex wonder whether Sam likes?") mysteriously become more acceptable with repeated exposure, a phenomenon called 'satiation.' We show in a meta-analysis of studies targeting satiation that there is indeed overwhelming evidence for satiation across many types of sentences that are taken to violate island constraints ([Lu et al. under review](https://alpslab.stanford.edu/publications.html#LuEtAl_submitted)). We show that satiation of such sentence types is speaker-specific ([Lu et al. 2021](https://alpslab.stanford.edu/publications.html#2021LuLassiterEtAl)) and that exposure to one type of island violation can lead to the satiation of another island type, suggesting that comprehenders track both island type-general and island type-specific representations ([Lu et al. 2022](https://alpslab.stanford.edu/publications.html#2022LuWrightEtAl)). Overall, this work supports a view of satiation as adaptation: comprehenders track and update their beliefs about the probability of observing certain sentences or sentence types. The more expected a sentence (type) is, the  more acceptable it is taken to be. Future directions include characterizing the interplay between grammar and contextual pragmatic utterance expectations to explain (the different rates of) satiation and formulate a more general linking hypothesis for acceptability judgments.
 
