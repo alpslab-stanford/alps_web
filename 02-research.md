@@ -77,7 +77,7 @@ Future directions include accounting for the tension between interpreters' remar
 *Note: Yildirim et al. 2013 is superseded by Yildirim et al. 2016.*
 
 
-<img align="right" width="500" src="images/research/satiation.png" alt="satiation">
+<img align="right" width="500" src="images/research/satiation.png" alt="satiation" hspace="20">
 
 ### Syntactic adaptation
 
@@ -87,7 +87,7 @@ In other work, we show that children also appear to use syntactic adaptation to 
 
 # Ordering phenomena
 
-<img align="right" width="250" src="images/research/efficiency.png" alt="efficiency">
+<img align="right" width="250" src="images/research/efficiency.png" alt="efficiency" hspace="20">
 
 We proposed processing efficiency and communicative efficiency based accounts of a variety of cross-linguistic ordering phenomena. These include: 
 
