@@ -56,7 +56,7 @@ To explain all of these effects jointly, we propose a Bayesian account of referr
 
 ### Interpretation of partial referring expressions
 
-<img align="right" src="images/research/contrastive.png" alt="contrastive inferences">
+<img align="right" width="400" src="images/research/contrastive.png" alt="contrastive inferences">
 
 Instructions with partial referring expressions, as in "Click on the red..." have been shown to give rise to contrastive inferences, a type of predictive pragmatic inference whereby the listener infers that the likely target referent is one that shares its type with another (non-red) object. We find that listeners derive contrastive inferences in the color domain to varying degrees, and they do so more readily, the more the use of the color term can only be ascribed to there being a color contrast between objects of the same type. We provide an RSA account of this interpretive variability that highlights the importance of listeners reasoning about a generative speaker model incrementally ([Kreiss & Degen 2020](https://alpslab.stanford.edu/publications.html#2020KreissDegen), [Kreiss & Degen in prep.](https://alpslab.stanford.edu/publications.html)). Future directions include testing the account on domains other than color, and documenting predictive pragmatic inferences in languages with different syntactic properties than English.
 
