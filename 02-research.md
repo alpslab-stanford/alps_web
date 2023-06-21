@@ -53,7 +53,7 @@ To explain all of these effects jointly, we propose a Bayesian account of referr
 
 *Note: Graf et al. 2016 is supserseded by Degen et al. 2020.*
 
-<img align="right" width="360" src="images/research/contrastive.png" alt="contrastive inferences">
+<img align="right" width="360" src="images/research/contrastive.png" alt="contrastive inferences" hspace="20">
 
 ### Interpretation of partial referring expressions
 
