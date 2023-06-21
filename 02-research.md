@@ -66,9 +66,10 @@ A crucial component common to the interpretation accounts applied to the phenome
 
 ### Semantic/pragmatic adaptation and variability
 
+<img align="right" width="700" src="images/research/sem-adaptation.jpeg" alt="semantic adaptation">
+
 We show that listeners update the space of meanings they expect to be covered by certain expression in response to exposure to speakers who use these expressions differently: The quantities that listeners take a speaker to describe using the quantifiers "some" and "many" change in response to exposure, and do so speaker-specifically ([Yildirim et al. 2016](https://alpslab.stanford.edu/publications.html#2016YildirimDegenEtAl)). Similarly for the uncertainty expressions "might" and "probably" (though the amount of speaker-specificity is limited, [Schuster & Degen 2019](https://alpslab.stanford.edu/publications.html#2019SchusterDegen)). We develop an RSA account that simulates adaptation and find, conditioning on the experimental data,  that listeners update both the lexicon (capturing form-meaning mappings) and utterance costs (capturing speaker-specific utterance preferences, [Schuster & Degen 2020](https://alpslab.stanford.edu/publications.html#2020SchusterDegen)). We also find in the domain of scalar implicatures that shifted interpretation after exposure to speakers who use varying more complex alternatives can be accounted for with updates to a lexical uncertainty model ([Waldon & Degen 2020b](https://alpslab.stanford.edu/publications.html#2020WaldonDegenB)).
 
-<img align="right" width="700" src="images/research/sem-adaptation.jpeg" alt="semantic adaptation">
 
 In the nominal domain, we find interpretive variability for edge cases of artifact nouns (e.g., whether bikes are covered by rules such as "No vehicles in the park"), and that this variability is modulated by evidence about the purpose of the rule (e.g., to avoid pollution). We develop a probabilistic, goal-based account of the extension resolution procedure for artifact nouns (Waldon et al. under review). In other work on the interpretation of edge cases in contractual language, we find that interpreters routinely underestimate interpretive variability, thus demonstrating a clear false consensus bias ([Waldon et al. 2023](https://alpslab.stanford.edu/publications.html#2023WaldonEtAl)). 
 
