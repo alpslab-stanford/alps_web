@@ -86,9 +86,9 @@ Syntactically degraded sentences (e.g., "Who does Alex wonder whether Sam likes?
 In other work, we show that children also appear to use syntactic adaptation to bootstrap the meanings of novel words ([Swanson et al. under review](https://alpslab.stanford.edu/publications.html#SwansonEtAl_submitted)).
 
 
-# Ordering phenomena
+<img align="right" width="250" src="images/research/efficiency.png" alt="efficiency">
 
-<img align="right" width="300" src="images/research/efficiency.png" alt="efficiency">
+# Ordering phenomena
 
 We proposed processing efficiency and communicative efficiency based accounts of a variety of cross-linguistic ordering phenomena. These include: 
 
