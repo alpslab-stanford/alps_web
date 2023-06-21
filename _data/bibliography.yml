@@ -1443,7 +1443,25 @@
     and serve as a proof of concept that meta-analysis can be a valuable tool for
     linguistic research.'
   author: Lu, Jiayi and Frank, Michael C. and Degen, Judith
-  formattedauthor: Lu, J., Frank, M.C., and Degen, J
+  formattedauthor: Lu, J., Frank, M.C., and Degen, J.
   title: A meta-analysis of syntactic satiation in extraction from islands
   website: papers/LuEtAl_submitted.pdf
+  year: submitted
+- ENTRYTYPE: article
+  ID: WaldonEtAl_submitted
+  abstract: "The context dependence of artifact noun category boundaries is underexplored\
+    \ relative to interpretational context dependence in other linguistic domains\
+    \ (e.g., gradable adjectives). Taking inspiration from a normative debate over\
+    \ the role of context in legal interpretation (in particular, the role of legislators\u2019\
+    \ policy goals), we show experimentally that contextual information as to a rule\u2019\
+    s purpose systematically modulates interpreter beliefs about the category boundaries\
+    \ of artifact nouns contained within the rule. We propose a Bayesian pragmatic\
+    \ model of the context-dependent resolution of artifact noun extensions, which\
+    \ we compare against context-independent baselines. Our experimental and modeling\
+    \ results suggest the need for an explicitly context-sensitive, multi-dimensional\
+    \ degree semantics for artifact nouns."
+  author: Waldon, Brandon and Condoravdi, Cleo and Levin, Beth and Degen, Judith
+  formattedauthor: Waldon, B., Condoravdi, C., Levin, B., and Degen, J.
+  title: On the context dependence of artifact noun interpretation
+  website: papers/WaldonEtAl_submitted.pdf
   year: submitted
