@@ -63,10 +63,9 @@ Instructions with partial referring expressions, as in "Click on the red..." hav
 
 A crucial component common to the interpretation accounts applied to the phenomena described above is that listeners make use of a generative model of the speaker -- how likely would a speaker have been to produce utterance *u* (compared to alternatives) if they had intended to communicate meaning *m* (compared to alternatives)? In order to build such a generative model, listeners must track and adapt to the statistics of the input -- that is, what the form-to-meaning mappings are that speakers generally assume, as well as any speaker-specific idiosyncracies that might be general enough to have predictive value in online processing or interpretation. Which aspects of the statistics of the input do listeners track, and what are the consequences for processing and interpretation?
 
+### Semantic/pragmatic adaptation and variability
 
 <img align="right" width="700" src="images/research/sem-adaptation.jpeg" alt="semantic adaptation">
-
-### Semantic/pragmatic adaptation and variability
 
 We show that listeners update the space of meanings they expect to be covered by certain expression in response to exposure to speakers who use these expressions differently: The quantities that listeners take a speaker to describe using the quantifiers "some" and "many" change in response to exposure, and do so speaker-specifically ([Yildirim et al. 2016](https://alpslab.stanford.edu/publications.html#2016YildirimDegenEtAl)). Similarly for the uncertainty expressions "might" and "probably" (though the amount of speaker-specificity is limited, [Schuster & Degen 2019](https://alpslab.stanford.edu/publications.html#2019SchusterDegen)). We develop an RSA account that simulates adaptation and find, conditioning on the experimental data,  that listeners update both the lexicon (capturing form-meaning mappings) and utterance costs (capturing speaker-specific utterance preferences, [Schuster & Degen 2020](https://alpslab.stanford.edu/publications.html#2020SchusterDegen)). We also find in the domain of scalar implicatures that shifted interpretation after exposure to speakers who use varying more complex alternatives can be accounted for with updates to a lexical uncertainty model ([Waldon & Degen 2020b](https://alpslab.stanford.edu/publications.html#2020WaldonDegenB)).
 
