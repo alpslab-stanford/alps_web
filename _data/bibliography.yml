@@ -1453,7 +1453,7 @@
   website: papers/2024SwansonEtAl.pdf
   year: '2024'
 - ENTRYTYPE: article
-  ID: LuEtAl_submitted
+  ID: LuEtAl_toappear
   abstract: 'Sentence acceptability judgments are often affected by a pervasive phenomenon
     called satiation: native speakers give increasingly higher ratings to initially
     degraded sentences after repeated exposure. Various studies have investigated
@@ -1480,7 +1480,7 @@
   formattedauthor: Lu, J., Frank, M.C., and Degen, J.
   journal: 'Glossa: Psycholinguistics'
   title: A meta-analysis of syntactic satiation in extraction from islands
-  website: papers/LuEtAl_submitted.pdf
+  website: papers/LuEtAl_toappear.pdf
   year: to appear
 - ENTRYTYPE: article
   ID: TonhauserDegen_submitted
@@ -1506,4 +1506,22 @@
     \ discover that it is?"
   url: https://ling.auf.net/lingbuzz/007770
   website: papers/TonhauserDegen_submitted.pdf
+  year: submitted
+- ENTRYTYPE: article
+  ID: LuEtAl_submitted
+  abstract: "Sentences with syntactic movement out of sentential complements of manner-of-\
+    \ speaking (MoS) verbs (e.g., whisper, shout) are degraded in acceptability, an\
+    \ effect called the \u201Cmanner-of-speaking (MoS) island effect\u201D. Accounts\
+    \ variably attribute the MoS island effect to the violation of the subjacency\
+    \ condition, to the low frequency of MoS verbs taking sentential complements,\
+    \ or to a general information structural constraint that discourse-backgrounded\
+    \ constituents cannot be extracted. In three acceptability judgment experiments,\
+    \ we find that the MoS island effect can be modulated by foregrounding or backgrounding\
+    \ the extracted constituent, suggesting a causal relationship between discourse\
+    \ backgroundedness and the MoS island effect. Our findings challenge syntactic\
+    \ and frequency accounts of the MoS island effect."
+  author: Lu, Jiayi and Pan, Dingyi and Degen, Judith
+  formattedauthor: Lu, J., Pan, D., and Degen, J.
+  title: Evidence for a Discourse Account of Manner-of-Speaking Islands
+  website: papers/LuEtAl_submitted.pdf
   year: submitted
