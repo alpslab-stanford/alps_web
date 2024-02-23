@@ -1522,11 +1522,27 @@
     \ and frequency accounts of the MoS island effect."
   author: Lu, Jiayi and Pan, Dingyi and Degen, Judith
   formattedauthor: Lu, J., Pan, D., and Degen, J.
-  title: Evidence for a Discourse Account of Manner-of-Speaking Islands
+  title: Evidence for a discourse account of manner-of-speaking islands
   website: papers/LuEtAl_submitted.pdf
   year: submitted
 - ENTRYTYPE: article
   ID: FrankeDegen_submitted
+  abstract: '
+
+    The softmax function is a ubiquitous helper function, frequently used as a probabilistic
+    link function for unordered categorical data, in different kinds of models, such
+    as regression, artificial neural networks, or probabilistic cognitive models.
+    To fully understand the models in which the softmax function occurs, different
+    levels of understanding of the softmax function itself are necessary. For input-output
+    oriented models, like regression or neural network models, mathematical properties
+    are crucial. For models with interpretable and meaningful internal representations
+    like probabilistic cognitive models, we also require a thorough conceptual understanding
+    of the motivation for using the softmax function (instead of something else).
+    This tutorial provides an in-depth exposition of the informal, mathematical and
+    conceptual properties of the softmax function. It also provides two mathematical
+    derivations (as a stochastic choice model, and as maximum entropy distribution),
+    together with three conceptual interpretations that can serve as rationale for
+    using the softmax function in models that require explainability of modeling choices.'
   author: Franke, Michael and Degen, Judith
   formattedauthor: Franke, M and Degen, J.
   title: 'The softmax function: Properties, motivation, and interpretation'
