@@ -1330,10 +1330,11 @@
   formattedauthor: Yu, D., Waldon, B., and Degen, J
   title: The cross-linguistic order of adjectives and nouns may be the result of iterated
     pragmatic pressures on referential communication
-  website: https://psyarxiv.com/7q5j4/
-  year: to appear
+  url: https://escholarship.org/uc/item/0hh3t5b5
+  website: papers/2023YuEtAl.pdf
+  year: '2023'
 - ENTRYTYPE: inproceedings
-  ID: 2023WaldonEtAl
+  ID: 2023WaldonEtAlCogSci
   abstract: 'We present a large-scale conceptual replication of an experiment that
     provided evidence of false consensus biases in legal interpretation: when reading
     a legal contract, individuals tend to over-estimate the extent to which others
@@ -1352,8 +1353,9 @@
   booktitle: Proceedings of the 45th Annual Conference of the Cognitive Science Society
   formattedauthor: Waldon, B., Brodsky, M., Ma, M., and Degen, J
   title: Predicting consensus in legal document interpretation
-  website: papers/2023WaldonEtAl.pdf
-  year: to appear
+  url: https://escholarship.org/uc/item/8rq5012j
+  website: papers/2023WaldonEtAlCogsci.pdf
+  year: '2023'
 - ENTRYTYPE: inproceedings
   ID: 2023PanDegen
   abstract: "Projection inferences are inferences about speaker commitment to a content\
@@ -1375,8 +1377,9 @@
   formattedauthor: Pan, D., and Degen, J
   title: Towards a computational account of projection inferences in polar interrogatives
     with clause-embedding predicates
+  url: https://escholarship.org/uc/item/13h8r0pv
   website: papers/2023PanDegen.pdf
-  year: to appear
+  year: '2023'
 - ENTRYTYPE: inproceedings
   ID: 2023FishmanDegen
   abstract: "Using evidential expressions to indicate one\u2019s source of information\
@@ -1397,10 +1400,33 @@
   formattedauthor: Fishman, F., and Degen, J
   title: 'Evidential uncertainty involves both pragmatic and extralinguistic reasoning:
     a computational account'
+  url: https://escholarship.org/uc/item/2ck558fz
   website: papers/2023FishmanDegen.pdf
-  year: to appear
+  year: '2023'
+- ENTRYTYPE: inproceedings
+  ID: 2023WaldonEtAlSuB
+  abstract: "The context dependence of artifact noun category boundaries is underexplored\
+    \ relative to interpretational context dependence in other linguistic domains\
+    \ (e.g., gradable adjectives). Taking inspiration from a normative debate over\
+    \ the role of context in legal interpretation (in particular, the role of legislators\u2019\
+    \ policy goals), we show experimentally that contextual information as to a rule\u2019\
+    s purpose systematically modulates interpreter beliefs about the category boundaries\
+    \ of artifact nouns contained within the rule. We propose a Bayesian pragmatic\
+    \ model of the context-dependent resolution of artifact noun extensions, which\
+    \ we compare against context-independent baselines. Our experimental and modeling\
+    \ results suggest the need for an explicitly context-sensitive, multi-dimensional\
+    \ degree semantics for artifact nouns."
+  author: Waldon, Brandon and Condoravdi, Cleo and Levin, Beth and Degen, Judith
+  booktitle: Proceedings of Sinn and Bedeutung
+  doi: https://doi.org/10.18148/sub/2023.v27.1093
+  formattedauthor: Waldon, B., Condoravdi, C., Levin, B., and Degen, J.
+  title: On the context dependence of artifact noun interpretation
+  url: https://ojs.ub.uni-konstanz.de/sub/index.php/sub/article/view/1093
+  volume: '27'
+  website: papers/2023WaldonEtAlSuB.pdf
+  year: '2023'
 - ENTRYTYPE: article
-  ID: SwansonEtAl_submitted
+  ID: 2024SwansonEtAl
   abstract: "Syntactic adaptation may be a key mechanism underlying children\u2019\
     s learning of novel words. Havron et al. (2019) exposed French-speaking children\
     \ (ages 3 to 4) to a speaker biased toward using either familiar verbs or familiar\
@@ -1417,10 +1443,15 @@
     \ the role of rapid adaptation during word learning and demonstrate the feasibility\
     \ of conducting eye-tracking studies through online platforms."
   author: Swanson, Elizabeth and Frank, Michael C. and Degen, Judith
+  doi: https://doi.org/10.34842/0ef7-5497
   formattedauthor: Swanson, E., Franke, M.C., and Degen, J
+  issue: '1'
+  journal: Language Development Research
   title: Syntactic adaptation and word learning in children and adults
-  website: papers/SwansonEtAl_submitted.pdf
-  year: submitted
+  url: https://ldr.lps.library.cmu.edu/article/id/608/
+  volume: '4'
+  website: papers/2024SwansonEtAl.pdf
+  year: '2024'
 - ENTRYTYPE: article
   ID: LuEtAl_submitted
   abstract: 'Sentence acceptability judgments are often affected by a pervasive phenomenon
@@ -1447,24 +1478,32 @@
     linguistic research.'
   author: Lu, Jiayi and Frank, Michael C. and Degen, Judith
   formattedauthor: Lu, J., Frank, M.C., and Degen, J.
+  journal: 'Glossa: Psycholinguistics'
   title: A meta-analysis of syntactic satiation in extraction from islands
   website: papers/LuEtAl_submitted.pdf
-  year: submitted
+  year: to appear
 - ENTRYTYPE: article
-  ID: WaldonEtAl_submitted
-  abstract: "The context dependence of artifact noun category boundaries is underexplored\
-    \ relative to interpretational context dependence in other linguistic domains\
-    \ (e.g., gradable adjectives). Taking inspiration from a normative debate over\
-    \ the role of context in legal interpretation (in particular, the role of legislators\u2019\
-    \ policy goals), we show experimentally that contextual information as to a rule\u2019\
-    s purpose systematically modulates interpreter beliefs about the category boundaries\
-    \ of artifact nouns contained within the rule. We propose a Bayesian pragmatic\
-    \ model of the context-dependent resolution of artifact noun extensions, which\
-    \ we compare against context-independent baselines. Our experimental and modeling\
-    \ results suggest the need for an explicitly context-sensitive, multi-dimensional\
-    \ degree semantics for artifact nouns."
-  author: Waldon, Brandon and Condoravdi, Cleo and Levin, Beth and Degen, Judith
-  formattedauthor: Waldon, B., Condoravdi, C., Levin, B., and Degen, J.
-  title: On the context dependence of artifact noun interpretation
-  website: papers/WaldonEtAl_submitted.pdf
+  ID: TonhauserDegen_submitted
+  abstract: "Presuppositions are taken to typically project out of entailment-canceling\
+    \ environments like the scope of negation (e.g., Chierchia and McConnell-Ginet\
+    \ 1990). While projection is often characterized as categorical (that is, content\
+    \ either typically projects or not), there is mounting empirical evidence that\
+    \ projection is gradient, with content being more or less projective (e.g., Karttunen\
+    \ 1971, Xue and Onea 2011, de Marneffe et al. 2019, Tonhauser et al. 2018, Degen\
+    \ and Tonhauser 2022). Mandelkern et al. 2020 critically evaluated the inference\
+    \ rating measures on which this empirical evidence is based and claimed that a\
+    \ different measure, namely naturalness ratings in explicit ignorance contexts,\
+    \ provides support for categorical projection and distinguishes presuppositions\
+    \ from nonpresuppositions. This paper presents the results of an experiment designed\
+    \ to investigate Mandelkern et al.\u2019s 2020 claim for factive predicates (presumed\
+    \ presupposition triggers) and nonfactive ones (nontriggers). The results do not\
+    \ support Mandelkern et al.\u2019s 2020 claim and rather align with Degen and\
+    \ Tonhauser\u2019s 2022 result that there is no evidence for a categorical distinction\
+    \ between factive and nonfactive predicates."
+  author: Tonhauser, Judith and Degen, Judith
+  formattedauthor: Tonhauser, J. and Degen, J.
+  title: "I don\u2019t know if projection is categorical. Did Mandelkern et al. 2020\
+    \ discover that it is?"
+  url: https://ling.auf.net/lingbuzz/007770
+  website: papers/TonhauserDegen_submitted.pdf
   year: submitted
