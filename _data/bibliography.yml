@@ -1281,7 +1281,7 @@
   website: https://www.annualreviews.org/doi/abs/10.1146/annurev-linguistics-031220-010811
   year: '2023'
 - ENTRYTYPE: inproceedings
-  ID: 2023HuEtAl
+  ID: HuEtAl2023
   abstract: "Scalar inferences (SI) are a signature example of how humans interpret\
     \ language based on unspoken alternatives. While empirical studies have demonstrated\
     \ that human SI rates are highly variable \u2013 both within instances of a single\
@@ -1299,10 +1299,13 @@
     \ over alternatives, and these expectations operate at the level of concepts."
   author: Hu, Jennifer and Levy, Roger and Degen, Judith and Schuster, Sebastian
   booktitle: Transactions of the Association for Computational Linguistics
-  formattedauthor: Hu, J., Levy, R., Degen, J., and Schuster, S
+  doi: https://doi.org/10.1162/tacl_a_00579
+  pages: 885--901
   title: Expectations over unspoken alternatives predict pragmatic inferences
-  website: https://arxiv.org/abs/2304.04758
-  year: to appear
+  url: https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00579/116994/Expectations-over-Unspoken-Alternatives-Predict
+  volume: '11'
+  website: papers/2023HuEtAl.pdf
+  year: '2023'
 - ENTRYTYPE: inproceedings
   ID: 2023YuEtAl
   abstract: "The world\u2019s languages differ in how they order adjectives and nouns\
