@@ -1525,3 +1525,11 @@
   title: Evidence for a Discourse Account of Manner-of-Speaking Islands
   website: papers/LuEtAl_submitted.pdf
   year: submitted
+- ENTRYTYPE: article
+  ID: FrankeDegen_submitted
+  author: Franke, Michael and Degen, Judith
+  formattedauthor: Franke, M and Degen, J.
+  title: 'The softmax function: Properties, motivation, and interpretation'
+  url: https://osf.io/preprints/psyarxiv/vsw47
+  website: papers/FrankeDegen_submitted.pdf
+  year: submitted
