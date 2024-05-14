@@ -1550,3 +1550,95 @@
   url: https://osf.io/preprints/psyarxiv/vsw47
   website: papers/FrankeDegen_submitted.pdf
   year: submitted
+- ENTRYTYPE: inproceedings
+  ID: 2024JeongEtAl
+  abstract: "Sentences with negated adjectives receive a stronger interpretation than\
+    \ given by their semantics, a phenomenon called negative strengthening. It has\
+    \ been reported that inherently positive adjectives display a higher degree of\
+    \ negative strengthening than inherently negative adjectives. We investigate two\
+    \ possible causes of this asymmetry: intrinsic adjectival polarity and face considerations.\
+    \ Results of an experiment where face-related factors were manipulated suggest\
+    \ that both polarity and face contribute to the asymmetry. Extending a prob- abilistic\
+    \ RSA model of polite speech, we formalize the listener\u2019s reasoning about\
+    \ a speaker\u2019s use of negated adjectives as a tradeoff between expecting a\
+    \ speaker to maximize both an utterance\u2019s social and informational utility,\
+    \ while avoiding inherently costly adjectives."
+  author: Jeong, Sarang and Potts, Christopher and Degen, Judith
+  booktitle: Proceedings of the 46th Annual Conference of the Cognitive Science Society
+  formattedauthor: Jeong, S., Potts, C., and Degen, J
+  title: Is the asymmetry in negative strengthening the result of adjectival polarity
+    or face considerations?
+  url: ''
+  website: papers/2024JeongEtAl.pdf
+  year: '2024'
+- ENTRYTYPE: inproceedings
+  ID: 2024GoodwinDegen
+  abstract: 'This paper explores how speakers choose between two ut- terance alternatives
+    with similar syntactic properties and distinct yet related meanings. We consider
+    the interaction of two speaker pressures: to mention accessible lexical items
+    early in the utterance and to mention informative content early in the utterance,
+    the latter of which is explicitly predicted by an incremental Rational Speech
+    Act (IRSA) model. In Exp. 1, we observed a significant effect of accessibility
+    on utterance choice in an online spoken production task, which elicited descrip-
+    tions of the relationship between two entities using a provided verb. We found
+    that making entities more accessible via foregrounding led speakers to mention
+    them earlier. In Exp. 2, an interactive production task, both informativity and
+    foregrounding were manipulated. While IRSA predicts more informative content to
+    be mentioned earlier in the sentence, we observed neither significant effects
+    of informativity nor of accessibility. Consistent with recent work on Good-Enough
+    theories of production, we conclude that even when two sentences are not entirely
+    meaning-equivalent, production choices can be affected by lexical accessibility;
+    the pressure to mention informative material early, however, should be investigated
+    further.'
+  author: Goodwin, Emily and Degen, Judith
+  booktitle: Proceedings of the 46th Annual Conference of the Cognitive Science Society
+  formattedauthor: Goodwin, E. and Degen, J
+  title: Production of syntactic alternations displays accessibility but not informativity
+    effects
+  url: ''
+  website: papers/2024GoodwinDegen.pdf
+  year: '2024'
+- ENTRYTYPE: inproceedings
+  ID: 2024RathiEtAl
+  abstract: Variation in the use of syntactic alternations has long been an explanatory
+    target of language production theories. In this work, we test the predictions
+    of several semantic, pragmatic and psycholinguistic theories of language use for
+    the English dative alternation. We first experimentally test the role of incremental
+    constituent informativity in the dative alternation, and find that contrary to
+    information structural and RSA models of production, informativity has little
+    effect on production preferences. We then more rigorously focus on accessibility
+    effects, demonstrating that a lossy-context automatic policy can recover a key
+    pattern of accessibility. Ultimately, we conclude that audience design pressures
+    likely do not influence incremental production, but simply may affect planning
+    at a broader scope.
+  author: Rathi, Neil and Waldon, Brandon and Degen, Judith
+  booktitle: Proceedings of the 46th Annual Conference of the Cognitive Science Society
+  formattedauthor: Rathi, N., Waldon, B., and Degen, J
+  title: Informativity and accessibility in incremental production of the dative alternation
+  url: ''
+  website: papers/2024RathiEtAl.pdf
+  year: '2024'
+- ENTRYTYPE: inproceedings
+  ID: 2024PapineauDegen
+  abstract: "Understanding referring expression generation has long been of interest\
+    \ to psycholinguistics, pragmatics, and sociolinguistics. Experimental data in\
+    \ the former two has shown that referring expression generation is modulated by\
+    \ both pragmatic and cognitive considerations, and the latter suggests that referring\
+    \ expressions have social meaning beyond their literal referential utility. This\
+    \ project integrates these three accounts by extending Burnett (2017)\u2019s socially-enriched\
+    \ implementation of the Rational Speech Act (RSA) framework to account for variation\
+    \ in referring expressions used to denote transgender women in two politically\
+    \ opposed media corpora. Our findings highlight the utility of the RSA framework\
+    \ in explaining socially-modulated variation while also accounting for pragmatic\
+    \ and cognitive considerations. Finally, this paper contributes to growing literatures\
+    \ that address the relationship between (alt-)right ideologies about gender and\
+    \ language by highlighting the use of bioessentialist language such as biological\
+    \ male in the propagation of anti-trans rhetoric in the United States."
+  author: Papineau, Brandon and Degen, Judith
+  booktitle: Proceedings of the 46th Annual Conference of the Cognitive Science Society
+  formattedauthor: Papineau, B. and Degen, J
+  title: "\u2018Biological males\u2019 and \u2018trans(gender) women\u2019: social\
+    \ considerations in the production of referring expressions"
+  url: ''
+  website: papers/2024PapineauDegen.pdf
+  year: '2024'
