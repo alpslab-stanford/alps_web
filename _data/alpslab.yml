@@ -9,6 +9,12 @@
 
 - role: Graduate students
   people:
+    - name: Emily Goodwin
+      webpage: https://emilygoodwin.github.io/
+      img: emily.jpg
+      bio:
+        - >
+          Emily works on semantics, pragmatics and sentence production, primarily focusing on syntactic alternations.
     - name: Jesús Adolfo Hermosillo
       webpage: https://adolfohermosillo.github.io/
       img: adolfo.jpg
