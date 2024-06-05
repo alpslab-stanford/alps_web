@@ -1454,7 +1454,7 @@
   website: papers/2024SwansonEtAl.pdf
   year: '2024'
 - ENTRYTYPE: article
-  ID: LuEtAl_toappear
+  ID: LuEtAl2024
   abstract: 'Sentence acceptability judgments are often affected by a pervasive phenomenon
     called satiation: native speakers give increasingly higher ratings to initially
     degraded sentences after repeated exposure. Various studies have investigated
@@ -1478,11 +1478,15 @@
     and serve as a proof of concept that meta-analysis can be a valuable tool for
     linguistic research.'
   author: Lu, Jiayi and Frank, Michael C. and Degen, Judith
+  doi: https://doi.org/10.5070/G60111425
   formattedauthor: Lu, J., Frank, M.C., and Degen, J.
+  issue: '1'
   journal: 'Glossa: Psycholinguistics'
   title: A meta-analysis of syntactic satiation in extraction from islands
-  website: papers/LuEtAl_toappear.pdf
-  year: to appear
+  url: https://escholarship.org/uc/item/33t7f9s4
+  volume: '3'
+  website: papers/2024LuEtAl.pdf
+  year: '2024'
 - ENTRYTYPE: article
   ID: TonhauserDegen_submitted
   abstract: "Presuppositions are taken to typically project out of entailment-canceling\
