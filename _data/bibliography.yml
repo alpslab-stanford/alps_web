@@ -1646,3 +1646,32 @@
   url: ''
   website: papers/2024PapineauDegen.pdf
   year: to appear
+- ENTRYTYPE: inproceedings
+  ID: 2024LuEtAlSCiL
+  abstract: 'The syntactic log-odds ratio (SLOR), a surprisal-based measure estimated
+    from pretrained language models (LMs) has been proposed as a linking function
+    for human sentence
+
+    acceptability judgments, a widespread measure of linguistic knowledge in experimental
+    linguistics. We test this proposal in three steps: by examining whether SLOR values
+    estimated by
+
+    GPT-2 Small predict human acceptability judgments; by asking whether satiation
+    effects observed in human judgments are also exhibited by fine-tuned LMs; and
+    by testing whether satiation effects generalize in qualitatively similar ways
+    in the model compared to humans. We show that SLOR in general predicts acceptability,
+    but there is a significant amount of variance in acceptability data that SLOR
+    fails to capture. SLOR also fails to capture certain patterns of satiation and
+    generalization. Our results challenge the idea that surprisal alone, via a SLOR
+    linking function, constitutes an accurate model for human acceptability judgments.'
+  author: Lu, Jiayi, Merchan, Jonathan, Wang, Lian, and Degen, Judith
+  booktitle: Society for Computation in Linguistics
+  doi: https://doi.org/10.7275/scil.2125
+  formattedauthor: Lu, J., Merchan, J., Wang, L., and Degen, J.
+  issue: '1'
+  pages: 10-19
+  title: Can syntactic log-odds ratio predict acceptability and satiation?
+  url: https://openpublishing.library.umass.edu/scil/article/id/2125/
+  volume: '7'
+  website: papers/2024LuEtAlSCiL.pdf
+  year: '2024'
