@@ -1572,9 +1572,9 @@
   formattedauthor: Jeong, S., Potts, C., and Degen, J
   title: Is the asymmetry in negative strengthening the result of adjectival polarity
     or face considerations?
-  url: ''
+  url: https://escholarship.org/uc/item/8vv324wq
   website: papers/2024JeongEtAl.pdf
-  year: to appear
+  year: '2024'
 - ENTRYTYPE: inproceedings
   ID: 2024GoodwinDegen
   abstract: 'This paper explores how speakers choose between two ut- terance alternatives
@@ -1599,9 +1599,9 @@
   formattedauthor: Goodwin, E. and Degen, J
   title: Production of syntactic alternations displays accessibility but not informativity
     effects
-  url: ''
+  url: https://escholarship.org/uc/item/8vw801s0
   website: papers/2024GoodwinDegen.pdf
-  year: to appear
+  year: '2024'
 - ENTRYTYPE: inproceedings
   ID: 2024RathiEtAl
   abstract: Variation in the use of syntactic alternations has long been an explanatory
@@ -1619,9 +1619,9 @@
   booktitle: Proceedings of the 46th Annual Conference of the Cognitive Science Society
   formattedauthor: Rathi, N., Waldon, B., and Degen, J
   title: Informativity and accessibility in incremental production of the dative alternation
-  url: ''
+  url: https://escholarship.org/uc/item/8bf3k1s7
   website: papers/2024RathiEtAl.pdf
-  year: to appear
+  year: '2024'
 - ENTRYTYPE: inproceedings
   ID: 2024PapineauDegen
   abstract: "Understanding referring expression generation has long been of interest\
@@ -1643,9 +1643,9 @@
   formattedauthor: Papineau, B. and Degen, J
   title: "\u2018Biological males\u2019 and \u2018trans(gender) women\u2019: social\
     \ considerations in the production of referring expressions"
-  url: ''
+  url: https://escholarship.org/uc/item/8b5481wb
   website: papers/2024PapineauDegen.pdf
-  year: to appear
+  year: '2024'
 - ENTRYTYPE: inproceedings
   ID: 2024LuEtAlSCiL
   abstract: 'The syntactic log-odds ratio (SLOR), a surprisal-based measure estimated
@@ -1675,3 +1675,30 @@
   volume: '7'
   website: papers/2024LuEtAlSCiL.pdf
   year: '2024'
+- ENTRYTYPE: article
+  ID: TonhauserDegen_submitted
+  abstract: "Interpreters frequently draw projection inferences, that is, inferences\
+    \ that the speaker believes utterance content contributed in the scope of an entailment-canceling\
+    \ operator. These inferences are modu- lated by a number of factors, including\
+    \ interpreters\u2019 prior beliefs about the content, the extent to which the\
+    \ content is at-issue with respect to the Question Under Discussion, as well as\
+    \ the lexical meaning of expressions associated with the content. This paper addresses\
+    \ open questions and disagreements in the literature about how these factors interact\
+    \ in modulating projection inferences. The paper reports the result of two experiments\
+    \ designed to investigate the relation between prior beliefs, at-issueness, and\
+    \ lexical meaning for projection inferences in American English. The contents\
+    \ under investigation are contributed by the clausal complements of clause-embedding\
+    \ predicates (e.g., know, discover), which differ in lexical meaning. The experiments\
+    \ suggest that (I) the effect of prior beliefs on projection persists across predicates,\
+    \ (II) the effect of at-issueness on projection varies by predicate, (IIIa) prior\
+    \ beliefs and at-issueness do not interact in modulating projection, and (IIIb)\
+    \ there is no effect of prior beliefs on at-issueness. We show that there is no\
+    \ projection analysis on the market that is able to capture these results, and\
+    \ point out important areas for future research on projection inferences."
+  author: Tonhauser, Judith and Degen, Judith
+  formattedauthor: Tonhauser, J. and Degen, J.
+  title: 'Projection inferences: On the relation between prior beliefs, at-issueness,
+    and lexical meaning'
+  url: https://ling.auf.net/lingbuzz/006771
+  website: papers/TonhauserDegen_submitted2024.pdf
+  year: submitted
